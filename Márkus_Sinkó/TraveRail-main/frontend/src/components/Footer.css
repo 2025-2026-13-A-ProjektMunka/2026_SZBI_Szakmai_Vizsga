@@ -1,0 +1,64 @@
+footer {
+  width: 100%;
+  background-color: #1e3a8a;
+  padding: 16px 20px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;              /* fontos */
+  gap: 24px;
+
+  box-shadow: 0 -2px 6px rgba(0, 0, 0, 0.15);
+}
+
+h1 {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 15px;
+  transition: 0.2s ease;
+  white-space: nowrap;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 15px;
+  transition: 0.2s ease;
+  white-space: nowrap;
+}
+
+footer a:hover {
+  color: #93c5fd;
+}
+
+/* Tablet */
+@media (max-width: 900px) {
+  footer {
+    gap: 18px;
+  }
+
+  footer a {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 600px) {
+
+  footer {
+    padding: 6px 0;        /* kisebb felső-alsó tér */
+    gap: 6px;              /* kisebb link távolság */
+  }
+
+  footer a {
+    font-size: 12px;       /* kisebb szöveg */
+    line-height: 1.2;      /* kisebb sorköz */
+    margin: 2px 0;
+  }
+
+}

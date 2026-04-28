@@ -1,0 +1,223 @@
+/* -------------------------------------------------------------------------
+    Booking Modal Stílusok (Felugró Ablak)
+------------------------------------------------------------------------- */
+
+/* MODAL HÁTTÉR (OVERLAY) */
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.85); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000; 
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+/* Modal nyitott állapotban */
+.modal-overlay {
+    opacity: 1;
+}
+
+/* MODAL TARTALOM DOBOZ */
+.booking-modal-content {
+    background-color: #1a1a1a; 
+    color: #f5f5f5;
+    padding: 2.5rem 2rem;
+    border-radius: 1rem;
+    max-width: 90%;
+    width: 450px;
+    box-shadow: 0 10px 30px rgba(245, 197, 66, 0.2); 
+    position: relative;
+    transform: translateY(-50px);
+    transition: transform 0.3s ease-in-out;
+    border: 1px solid #333333;
+}
+
+/* Modal animáció - visszaugrás a helyére */
+.modal-overlay[style*="opacity: 1"] .booking-modal-content {
+    transform: translateY(0);
+}
+
+
+/* CÍMEK */
+.modal-title {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #f5c542; 
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+
+.modal-subtitle {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #cccccc;
+    text-align: center;
+    margin-bottom: 1.5rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #333333;
+}
+
+/* ZÁRÓ GOMB */
+.modal-close-button {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    background: none;
+    border: none;
+    font-size: 2rem;
+    color: #f5c542;
+    cursor: pointer;
+    line-height: 1;
+    transition: color 0.2s ease;
+}
+
+.modal-close-button:hover {
+    color: #e0b038;
+}
+
+/* FORM ELEMEK */
+.booking-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-label-modal {
+    font-weight: 500;
+    color: #f5c542;
+    margin-bottom: 0.5rem;
+}
+
+.input-field-modal {
+    padding: 0.75rem;
+    border: 1px solid #333333;
+    background-color: #222222;
+    color: #f5f5f5;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.input-field-modal:focus {
+    outline: none;
+    border-color: #f5c542;
+    box-shadow: 0 0 5px rgba(245, 197, 66, 0.5);
+}
+
+/* IDŐPONT SÁVOK */
+.time-slots-grid-modal {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(90px, 1fr));
+    gap: 0.75rem;
+    margin-top: 0.5rem;
+}
+
+.time-slot-button-modal {
+    background-color: #222222;
+    color: #cccccc;
+    border: 1px solid #333333;
+    padding: 0.7rem 0.4rem;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    font-weight: 500;
+    transition: background-color 0.2s ease, border-color 0.2s ease, transform 0.1s ease;
+}
+
+.time-slot-button-modal:hover {
+    background-color: #333333;
+    color: #f5f5f5;
+}
+
+/* Kiválasztott időpont */
+.time-slot-button-modal.selected {
+    background-color: #f5c542;
+    color: #111111;
+    border-color: #f5c542;
+    font-weight: 700;
+    box-shadow: 0 2px 8px rgba(245, 197, 66, 0.4);
+    transform: scale(1.02);
+}
+
+/* -------------------------------------------------------------------------
+    Foglalt Időpont Stílusai (Disable)
+------------------------------------------------------------------------- */
+
+.time-slot-button-modal[disabled],
+.time-slot-button-modal.booked {
+    /* Szürke, inaktív háttér */
+    background-color: #333333; 
+    color: #888888;
+    border-color: #444444;
+    cursor: not-allowed !important; /* Tiltott kurzor */
+    opacity: 0.7; /* Halványítás */
+    pointer-events: all; /* A disabled attribútumot használjuk a letiltásra */
+    box-shadow: none;
+    transform: none;
+}
+
+/* Hover effektus megszüntetése a foglalt gombokon */
+.time-slot-button-modal.booked:hover {
+    background-color: #333333;
+    color: #888888;
+}
+
+.booked-text {
+    font-size: 0.75rem;
+    display: block;
+    line-height: 1;
+    color: #666666;
+    margin-top: 2px;
+}
+
+.no-slots-modal {
+    grid-column: 1 / -1;
+    text-align: center;
+    color: #999999;
+    font-style: italic;
+    padding: 1rem;
+}
+
+/* FOGLALÁS MEGERŐSÍTŐ GOMB */
+.confirm-booking-button-modal {
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    font-size: 1.1rem;
+    font-weight: 700;
+    background-color: #f5c542;
+    color: #111111;
+    padding: 0.8rem 1.5rem;
+    border-radius: 0.5rem;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, opacity 0.3s ease;
+    box-shadow: 0 4px 10px rgba(245, 197, 66, 0.4);
+    margin-top: 0.5rem;
+}
+
+.confirm-booking-button-modal:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+    box-shadow: none;
+}
+
+/* Kisebb képernyőméretekre */
+@media (max-width: 500px) {
+    .booking-modal-content {
+        padding: 1.5rem 1rem;
+        width: 95%;
+    }
+    .modal-title {
+        font-size: 1.6rem;
+    }
+}

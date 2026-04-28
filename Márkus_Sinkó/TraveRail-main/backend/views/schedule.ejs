@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="hu">
+    <head>
+        <meta charset="UTF-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1.0"
+        />
+        <link
+            rel="stylesheet"
+            href="/schedules/css/schedule.css"
+        />
+        <title>Menetrend</title>
+    </head>
+    <body>
+        <%- include('./nav.ejs') %>
+        <div id="menetrend-kontener">
+            <h1>Menetrend</h1>
+            <div class="menetrend-kontener">
+                <form>
+                    <table>
+                        <span
+                            ><input
+                                type="hidden"
+                                value="<%= schedule._id %>"
+                                id="m_id"
+                        /></span>
+                        <tr>
+                            <td>Járat:</td>
+                            <td>
+                                <select id="jarat">
+                                    <% for( let i = 0; i < jarat.length; i++ ) {
+                                    %> <% if (schedule.jarat === jarat[i]) { %>
+                                    <option
+                                        value="<%= jarat[i] %>"
+                                        selected
+                                    >
+                                        <%= jarat[i] %>
+                                    </option>
+                                    <% } else { %>
+                                    <option value="<%= jarat[i] %>">
+                                        <%= jarat[i] %>
+                                    </option>
+                                    <% } %> <% } %>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Indulóállomás:</td>
+                            <td>
+                                <select id="induloallomas">
+                                    <% for( let i = 0; i < allomasok.length;
+                                    i++) { %> <% if (schedule.induloallomas ===
+                                    allomasok[i]) { %>
+                                    <option
+                                        value="<%= allomasok[i] %>"
+                                        selected
+                                    >
+                                        <%= allomasok[i] %>
+                                    </option>
+                                    <% } else { %>
+                                    <option value="<%= allomasok[i] %>">
+                                        <%= allomasok[i] %>
+                                    </option>
+                                    <% } %> <% } %>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Célállomás:</td>
+                            <td>
+                                <select id="celallomas">
+                                    <% for( let i = 0; i < allomasok.length;
+                                    i++) { %> <% if (schedule.celallomas ===
+                                    allomasok[i]) { %>
+                                    <option
+                                        value="<%= allomasok[i] %>"
+                                        selected
+                                    >
+                                        <%= allomasok[i] %>
+                                    </option>
+                                    <% } else { %>
+                                    <option value="<%= allomasok[i] %>">
+                                        <%= allomasok[i] %>
+                                    </option>
+
+                                    <% } %> <% } %>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Állomások:</td>
+                            <td>
+                                <select
+                                    id="allomasok"
+                                    multiple
+                                    size="10"
+                                >
+                                    <% for( let i = 0; i < allomasok.length;
+                                    i++) { %> <% let van = true; %> <% for( let
+                                    j = 0; j < schedule.allomasok.length; j++) {
+                                    %> <% if (schedule.allomasok[j] ===
+                                    allomasok[i]) { %> <% van = false; %>
+                                    <option
+                                        value="<%= allomasok[i] %>"
+                                        selected
+                                    >
+                                        <%= allomasok[i] %>
+                                    </option>
+                                    <% } %> <% } %> <% if (van) { %>
+                                    <option value="<%= allomasok[i] %>">
+                                        <%= allomasok[i] %>
+                                    </option>
+                                    <% } %> <% } %>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Kedvezmények:</td>
+                            <td>
+                                <select
+                                    id="kedvezmeny"
+                                    multiple
+                                    size="5"
+                                >
+                                    <% for( let i = 0; i < kedvezmeny.length;
+                                    i++) { %> <% let van = true; %> <% for( let
+                                    j = 0; j < schedule.kedvezmeny.length; j++)
+                                    { %> <% if (schedule.kedvezmeny[j] ===
+                                    kedvezmeny[i]) { %> <% van = false; %>
+                                    <option
+                                        value="<%= kedvezmeny[i] %>"
+                                        selected
+                                    >
+                                        <%= kedvezmeny[i] %>
+                                    </option>
+                                    <% } %> <% } %> <% if (van) { %>
+                                    <option value="<%= kedvezmeny[i] %>">
+                                        <%= kedvezmeny[i] %>
+                                    </option>
+                                    <% } %> <% } %>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Életkor:</td>
+                            <td>
+                                <select
+                                    id="kortablak"
+                                    multiple
+                                    size="5"
+                                >
+                                    <% for( let i = 0; i < kortablak.length;
+                                    i++) { %> <% let van = true; %> <% for( let
+                                    j = 0; j < schedule.kortablak.length; j++) {
+                                    %> <% if (schedule.kortablak[j] ===
+                                    kortablak[i]) { %> <% van = false; %>
+                                    <option
+                                        value="<%= kortablak[i] %>"
+                                        selected
+                                    >
+                                        <%= kortablak[i] %>
+                                    </option>
+                                    <% } %> <% } %> <% if (van) { %>
+                                    <option value="<%= kortablak[i] %>">
+                                        <%= kortablak[i] %>
+                                    </option>
+                                    <% } %> <% } %>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Időtartam:</td>
+                            <td>
+                                <select id="idotartam">
+                                    <% for( let i = 0; i < idotartam.length;
+                                    i++) { %> <% if (schedule.idotartam ===
+                                    idotartam[i]) { %>
+                                    <option
+                                        value="<%= idotartam[i] %>"
+                                        selected
+                                    >
+                                        <%= idotartam[i] %>
+                                    </option>
+                                    <% } else { %>
+                                    <option value="<%= idotartam[i] %>">
+                                        <%= idotartam[i] %>
+                                    </option>
+
+                                    <% } %> <% } %>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Időpontok:</td>
+                            <td>
+                                <select
+                                    id="idopontok"
+                                    multiple
+                                    size="5"
+                                >
+                                    <% for( let i = 0; i < idopontok.length;
+                                    i++) { %> <% let van = true; %> <% for( let
+                                    j = 0; j < schedule.idopontok.length; j++) {
+                                    %> <% if (schedule.idopontok[j] ===
+                                    idopontok[i]) { %> <% van = false; %>
+                                    <option
+                                        value="<%= idopontok[i] %>"
+                                        selected
+                                    >
+                                        <%= idopontok[i] %>
+                                    </option>
+                                    <% } %> <% } %> <% if (van) { %>
+                                    <option value="<%= idopontok[i] %>">
+                                        <%= idopontok[i] %>
+                                    </option>
+                                    <% } %> <% } %>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Klíma</td>
+                            <td>
+                                <label for="klima_igen">Van</label>
+                                <input type="radio" id="klima_igen" name="klima"
+                                value="true" <% if (schedule.klima === 'true') {
+                                %> checked <% } %> />
+
+                                <label for="klima_nem">Nincs</label>
+                                <input type="radio" id="klima_nem" name="klima"
+                                value="false" <% if (schedule.klima === 'false')
+                                { %> checked <% } %> />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Helyjegy</td>
+                            <td>
+                                <label for="helyjegy_igen">Van</label>
+                                <input type="radio" id="helyjegy_igen"
+                                name="helyjegy" value="true" <% if
+                                (schedule.helyjegy === 'true') { %> checked <% }
+                                %> />
+
+                                <label for="helyjegy_nem">Nincs</label>
+                                <input type="radio" id="helyjegy_nem"
+                                name="helyjegy" value="false" <% if
+                                (schedule.helyjegy === 'false') { %> checked <%
+                                } %> />
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>Kép 1:</td>
+                            <td>
+                                <input
+                                    type="text"
+                                    id="kep1"
+                                    value="<%= schedule.kepek[0] %>"
+                                />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Kép 2:</td>
+                            <td>
+                                <input
+                                    type="text"
+                                    id="kep2"
+                                    value="<%= schedule.kepek[1] %>"
+                                />
+                            </td>
+                        </tr>
+                        <tr></tr>
+                        <tr>
+                            <td>
+                                <button id="modositas">Módosítás</button>
+                            </td>
+                            <td></td>
+                        </tr>
+                    </table>
+                </form>
+            </div>
+        </div>
+        <script src="/schedules/js/menetrend-modosit.js"></script>
+    </body>
+</html>

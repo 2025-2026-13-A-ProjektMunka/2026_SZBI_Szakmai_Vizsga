@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="hu">
+    <head>
+        <meta charset="UTF-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1.0"
+        />
+        <link
+            rel="stylesheet"
+            href="/schedules/css/new-schedule.css"
+        />
+        <title>Új menetrend felvétele</title>
+    </head>
+    <body>
+        <%- include('nav.ejs') %>
+        <div id="uj-menetrend-kontener">
+            <h1>Új menetrend felvétele</h1>
+            <form>
+                <table>
+                    <tr>
+                        <td>Járat:</td>
+                        <td>
+                            <select id="jarat">
+                                <% jarat.forEach(elem => { %>
+                                <option value="<%= elem %>"><%= elem %></option>
+                                <% }) %>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Indulóállomás:</td>
+                        <td>
+                            <select id="induloallomas">
+                                <% allomasok.forEach(elem => { %>
+                                <option value="<%= elem %>"><%= elem %></option>
+                                <% }) %>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Célállomás:</td>
+                        <td>
+                            <select id="celallomas">
+                                <% allomasok.forEach(elem => { %>
+                                <option value="<%= elem %>"><%= elem %></option>
+                                <% }) %>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Állomások:</td>
+                        <td>
+                            <select
+                                id="allomasok"
+                                multiple
+                                size="10"
+                            >
+                                <% allomasok.forEach(elem => { %>
+                                <option value="<%= elem %>"><%= elem %></option>
+                                <% }) %>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Kedvezmények:</td>
+                        <td>
+                            <select
+                                id="kedvezmeny"
+                                multiple
+                                size="5"
+                            >
+                                <% kedvezmeny.forEach(elem => { %>
+                                <option value="<%= elem %>"><%= elem %></option>
+                                <% }) %>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Életkor:</td>
+                        <td>
+                            <select
+                                id="kortablak"
+                                multiple
+                                size="5"
+                            >
+                                <% kortablak.forEach(elem => { %>
+                                <option value="<%= elem %>"><%= elem %></option>
+                                <% }) %>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Időtartam:</td>
+                        <td>
+                            <select id="idotartam">
+                                <% idotartam.forEach(elem => { %>
+                                <option value="<%= elem %>"><%= elem %></option>
+                                <% }) %>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Időpontok:</td>
+                        <td>
+                            <select
+                                id="idopontok"
+                                multiple
+                                size="10"
+                            >
+                                <% idopontok.forEach(elem => { %>
+                                <option value="<%= elem %>"><%= elem %></option>
+                                <% }) %>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Klíma</td>
+                        <td>
+                            <label for="klima_igen">Van</label>
+                            <input
+                                type="radio"
+                                id="klima_igen"
+                                name="klima"
+                                value="true"
+                                checked
+                            />
+
+                            <label for="klima_nem">Nincs</label>
+                            <input
+                                type="radio"
+                                id="klima_nem"
+                                name="klima"
+                                value="false"
+                            />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Helyjegy</td>
+                        <td>
+                            <label for="helyjegy_igen">Van</label>
+                            <input
+                                type="radio"
+                                id="helyjegy_igen"
+                                name="helyjegy"
+                                value="true"
+                                checked
+                            />
+
+                            <label for="helyjegy_nem">Nincs</label>
+                            <input
+                                type="radio"
+                                id="helyjegy_nem"
+                                name="helyjegy"
+                                value="false"
+                            />
+                        </td>
+                        </tr>
+                        <tr>
+                        <td>Ár:</td>
+                        <td><input type="number" id="ar" /></td>
+                    </tr>
+                    
+
+                    <tr>
+                        <td>Kép 1:</td>
+                        <td>
+                            <input
+                                type="text"
+                                id="kep1"
+                            />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Kép 2:</td>
+                        <td>
+                            <input
+                                type="text"
+                                id="kep2"
+                            />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><button id="feltoltes">Feltöltés</button></td>
+                        <td></td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+        <script src="/schedules/js/letrehoz.js"></script>
+    </body>
+</html>
+<!-- maga az űrlap -->

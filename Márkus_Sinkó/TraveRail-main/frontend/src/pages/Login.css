@@ -1,0 +1,42 @@
+#login-heading {
+    text-align: center;
+    font-size: 3.2em;
+    color: black;
+}
+
+#login-kontener {
+  max-width: 420px;
+margin: 50px auto 0px;
+padding: 20px;
+border: 1px solid #ddd;
+border-radius: 12px;
+background: #fafafa;
+/* background-color: rgba(34, 91, 213, 0.159); */
+box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+#login-gombok {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+@media screen and (max-width: 600px) {
+  #login-kontener {
+    margin: 80px auto 0px;
+    overflow: scroll;
+  }
+
+  #login-kontener h1 {
+    font-size: 3em;
+  }
+
+  #login-form {
+    /* position: relative; */
+    padding-bottom: 120px;
+    /* margin-bottom: 100px; */
+    /* top: 120px; */
+    height: auto;
+    margin-top: 160px;
+  }
+}

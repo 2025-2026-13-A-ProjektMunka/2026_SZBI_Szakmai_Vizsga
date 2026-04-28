@@ -1,0 +1,124 @@
+html, body {
+  /* height: 100%; */
+  overflow-y: auto;
+}
+
+body {
+  padding-bottom: 120px; /* nagyobb mint a footer magassága */
+}
+
+#menetrend-heading {
+    text-align: center;
+    font-size: 3.2em;
+    color: black;
+}
+
+#menetrend-kontener {
+  max-width: 420px;
+margin: 100px auto 0px;
+padding-bottom: 120px;
+/* border: 1px solid #ddd; */
+border-radius: 12px;
+background: #fafafa;
+/* background-color: rgba(34, 91, 213, 0.159); */
+box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+#menetrend-form {
+  padding: 16px;
+}
+
+#fedo form {
+max-width: 450px;
+margin: 30px auto;
+padding: 20px;
+border: 1px solid #ddd;
+border-radius: 12px;
+background: #fafafa;
+box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+/* padding-bottom: 90px; */
+}
+
+
+.icons {
+font-size: 22px;
+margin-bottom: 14px;
+}
+
+
+.field {
+margin-bottom: 14px;
+display: flex;
+flex-direction: column;
+}
+
+
+.field input {
+width: 100%;
+padding: 10px;
+border-radius: 6px;
+border: 1px solid #ccc;
+margin-top: 6px;
+background: white;
+}
+
+
+.row {
+display: flex;
+gap: 10px;
+margin-bottom: 18px;
+}
+
+
+.submit-btn {
+  width: 100%;
+  padding: 12px 0;
+  background: #ffdd33;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+
+  margin-top: 20px;   /* csak felül */
+}
+
+.a {
+  display: block;          /* <<< KÜLÖN SORBA TESZI A LINKEKET */
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  margin: 10px 0;          /* <<< TÁVOLSÁG A LINKEK KÖZÖTT */
+  line-height: 1.8;        /* <<< SORKÖZ */
+}
+
+.a:hover {
+  color: #66aaff;
+}
+
+@media screen and (max-width: 600px) {
+
+  footer {
+
+    padding: 10px 0;        /* kisebb padding */
+    gap: 4px;               /* kisebb távolság */
+    font-size: 13px;        /* kisebb betű */
+  }
+
+  footer a {
+    font-size: 13px;
+  }
+
+  body {
+    padding-bottom: 10px;   /* igazítsd a footer magasságához */
+  }
+
+  .submit-btn {
+    margin-bottom: 25px;   /* minimális feljebb tolás */
+  }
+
+
+  #menetrend-form {
+    padding-bottom: 155px;
+  }
+}

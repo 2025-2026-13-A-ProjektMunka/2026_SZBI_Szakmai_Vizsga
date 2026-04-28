@@ -1,0 +1,145 @@
+/* Register.css — Sötét, edzőtermes, letisztult + egyedibb stílus */
+
+/* Alapszínek és árnyalatok */
+:root {
+  --gold: #f5c542;
+  --gold-dark: #d4a732;
+  --bg-dark: #131313;
+  --bg-panel: #1a1a1a;
+  --input-bg: #202020;
+  --border: #2d2d2d;
+  --text-light: #f0f0f0;
+  --text-muted: #bbbbbb;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--bg-dark);
+  font-family: "Inter", sans-serif;
+  color: var(--text-light);
+}
+
+/* Fő konténer – enyhe süllyesztett hatás + halvány belső fény */
+.register-container {
+  background-color: var(--bg-panel);
+  max-width: 420px;
+  margin: 90px auto;
+  padding: 45px;
+  border-radius: 18px;
+  border: 1px solid var(--border);
+  box-shadow:
+    inset 0 0 22px rgba(255, 255, 255, 0.02), /* belső enyhe fény */
+    0 0 18px rgba(0, 0, 0, 0.6); /* külső árnyék */
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Dekoratív felső arany csík */
+.register-container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 40%;
+  height: 3px;
+  background: linear-gradient(90deg, transparent, var(--gold), transparent);
+  border-radius: 8px;
+}
+
+.register-container h2 {
+  color: var(--gold);
+  margin-bottom: 28px;
+  letter-spacing: 1.2px;
+  font-size: 1.7rem;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+/* Irányított oszlopos elrendezés */
+.register-form {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.register-form label {
+  text-align: left;
+  font-size: 0.9rem;
+  color: var(--gold);
+  font-weight: 500;
+}
+
+/* Input mezők – ovális stílus + belső fényjáték */
+.register-form input {
+  padding: 13px 15px;
+  border-radius: 28px;
+  border: 1px solid var(--border);
+  background-color: var(--input-bg);
+  color: var(--text-light);
+  font-size: 1rem;
+  outline: none;
+  transition: border 0.2s ease, box-shadow 0.2s ease;
+  box-shadow: inset 0 0 12px rgba(0, 0, 0, 0.4);
+}
+
+.register-form input:focus {
+  border: 1px solid var(--gold);
+  box-shadow:
+    inset 0 0 12px rgba(0, 0, 0, 0.55),
+    0 0 10px rgba(245, 197, 66, 0.28);
+}
+
+/* Gomb – erős, sportos stílus, harsányabb árnyék */
+.auth-btn {
+  width: 100%;
+  margin-top: 8px;
+  padding: 13px;
+  background-color: var(--gold);
+  border: none;
+  border-radius: 28px;
+  font-size: 1.05rem;
+  font-weight: 700;
+  cursor: pointer;
+  color: #1a1a1a;
+  letter-spacing: 0.5px;
+  transition: background 0.2s ease, transform 0.15s ease;
+  box-shadow: 0 4px 12px rgba(245, 197, 66, 0.3);
+}
+
+.auth-btn:hover {
+  background-color: var(--gold-dark);
+  transform: translateY(-2px);
+}
+
+.auth-btn:active {
+  transform: translateY(0);
+}
+
+/* Alul link – egyszerű, letisztult */
+.auth-switch {
+  margin-top: 22px;
+  color: var(--text-muted);
+  font-size: 0.92rem;
+}
+
+.auth-switch a {
+  color: var(--gold);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.auth-switch a:hover {
+  text-decoration: underline;
+}
+
+/* Mobilbarát módosítások */
+@media (max-width: 480px) {
+  .register-container {
+    width: 88%;
+    padding: 32px;
+    margin-top: 60px;
+  }
+}

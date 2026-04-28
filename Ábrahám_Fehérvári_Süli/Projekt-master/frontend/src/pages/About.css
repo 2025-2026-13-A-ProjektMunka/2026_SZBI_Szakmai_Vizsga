@@ -1,0 +1,131 @@
+.about-page {
+  background-color: #111;
+  color: #f5f5f5;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+}
+
+/* HERO */
+.about-hero {
+  background: url('https://images.unsplash.com/photo-1579758629938-03607ccdbaba?auto=format&fit=crop&w=1600&q=80')
+    no-repeat center center/cover;
+  height: 70vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-hero::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.about-hero-content {
+  position: relative;
+  z-index: 2;
+  max-width: 700px;
+  padding: 20px;
+}
+
+.about-hero h1 {
+  font-size: 3rem;
+  color: #f5c542;
+  margin-bottom: 10px;
+}
+
+/* SZEKCIÓK */
+.about-section {
+  padding: 60px 20px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.about-section.light {
+  background-color: #1a1a1a;
+}
+
+.about-section h2 {
+  color: #f5c542;
+  margin-bottom: 20px;
+}
+
+.about-section p {
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.about-img {
+  width: 100%;
+  border-radius: 12px;
+  margin-top: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+/* EDZŐK */
+.trainer-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+  margin-top: 30px;
+}
+
+.trainer-card {
+  background-color: #222;
+  border-radius: 12px;
+  overflow: hidden;
+  width: 260px;
+  transition: transform 0.3s ease;
+}
+
+.trainer-card:hover {
+  transform: translateY(-5px);
+}
+
+.trainer-card img {
+  width: 100%;
+  height: 240px;
+  object-fit: cover;
+}
+
+.trainer-card h3 {
+  color: #f5c542;
+  margin: 15px 0 5px;
+}
+
+.trainer-card p {
+  font-size: 0.9rem;
+  padding: 0 15px 20px;
+  color: #ccc;
+}
+
+/* LÁBJEGYZET */
+.about-footer {
+  background-color: #000;
+  border-top: 2px solid #f5c542;
+  padding: 20px;
+  margin-top: 40px;
+  font-size: 0.9rem;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .trainer-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .trainer-card {
+    width: 90%;
+  }
+
+  .about-hero h1 {
+    font-size: 2.2rem;
+  }
+}

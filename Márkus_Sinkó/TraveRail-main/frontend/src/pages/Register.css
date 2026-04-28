@@ -1,0 +1,186 @@
+* {
+  /* border: 1px solid black; */
+}
+
+#fedo {
+  /* align-items: center; */
+  /* justify-content: center; */
+  display: flex;
+  position: absolute;
+  /* top: 100px; */
+  left: 0px;
+  background-color: rgba(34, 91, 213, 0.159);
+  width: 100vw;
+  height: 80vh;  
+  overflow: scroll;
+}
+
+#register-kontener {
+  max-width: 420px;
+margin: 50px auto 0px;
+padding: 20px;
+border: 1px solid #ddd;
+border-radius: 12px;
+background: #fafafa;
+/* background-color: rgba(34, 91, 213, 0.159); */
+box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+#form-kontener-register {
+    /* background-color: #fff; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    /* padding: 1em; */
+}
+
+#form-kontener-register form {
+  /* height: 100%; */
+  /* padding-left: 1em; */
+}
+
+.text-center {
+    text-align: center;
+    color: black;
+    font-size: 3.2em;
+}
+
+.flex-row {
+    flex-direction: row;
+}
+
+#fedo {
+  padding-top: 80px;
+}
+
+.register a {
+  display: block;          /* <<< KÜLÖN SORBA TESZI A LINKEKET */
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  margin: 10px 0;          /* <<< TÁVOLSÁG A LINKEK KÖZÖTT */
+  line-height: 1.8;        /* <<< SORKÖZ */
+}
+
+.register a:hover {
+  color: #66aaff;
+}
+
+/* Container a teljes képernyő középre igazításhoz */
+.register-container {
+  min-height: 100vh; /* teljes magasság */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f9fafb; /* Tailwind bg-gray-50 */
+}
+
+/* Form */
+.register-form {
+  width: 100%;
+  max-width: 28rem; /* kb. w-full max-w-md */
+  background-color: #ffffff;
+  padding: 1.5rem; /* Tailwind p-6 */
+  border-radius: 0.5rem; /* rounded-lg */
+  box-shadow: 0 10px 15px -3px rgba(0,0,0,0.1), 0 4px 6px -2px rgba(0,0,0,0.05); /* shadow */
+}
+
+/* Címsor */
+.register-form h1 {
+  font-size: 1.5rem; /* text-2xl */
+  font-weight: 600;  /* font-semibold */
+  margin-bottom: 1.5rem; /* mb-6 */
+  color: #1d4ed8; /* text-blue-700 */
+  text-align: center; /* középre */
+}
+
+/* Label */
+.register-form label {
+  /* display: inline-block; */
+  font-size: 0.875rem; /* text-sm */
+  font-weight: 500;    /* font-medium */
+  margin-bottom: 0.25rem; /* mb-1 */
+  color: #1f2937; /* text-gray-800 */
+  width: 10px !important;
+}
+
+/* Input mezők */
+.register-form input[type="text"],
+.register-form input[type="email"],
+.register-form input[type="password"],
+.register-form input[type="date"] {
+    width: 100%;
+    margin-bottom: 0.75rem; /* mb-3 */
+    padding: 0.5rem; /* p-2 */
+    border: 1px solid #d1d5db; /* border-gray-300 */
+    border-radius: 0.25rem; /* rounded */
+    color: #111827; /* text-gray-900 */
+}
+
+.jelolo {
+    display: flex;
+    flex-direction: row;
+    align-items: center !important;
+    padding: 0px;
+}
+
+.jelolo input[type="checkbox"] {
+    display: flex;
+    align-items: center;
+    width: 20px !important;
+}
+
+.check-kontener {
+    display: flex;
+    align-items: center;
+}
+
+/* Checkbox sorok */
+.register-form .flex.items-center {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.5rem; /* mb-2 vagy mb-4 */
+}
+
+.register-form .flex.items-center label {
+  font-size: 0.875rem; /* text-sm */
+  color: #374151; /* text-gray-700 */
+  margin: 0;
+}
+
+/* Submit gomb */
+.register-form button[type="submit"] {
+  width: 100%;
+  padding: 0.5rem 0; /* py-2 */
+  border-radius: 0.25rem; /* rounded */
+  background-color: #2563eb; /* bg-blue-600 */
+  color: white;
+  font-weight: 500; /* font-medium */
+  transition: background-color 0.2s ease;
+  cursor: pointer;
+}
+
+.register-form button[type="submit"]:hover {
+  background-color: #1e40af; /* hover:bg-blue-700 */
+}
+
+@media screen and (max-width: 600px) {
+  #register-kontener {
+    margin: 80px auto 0px;
+  }
+
+  .text-center {
+    font-size: 3em;
+  }
+
+  #register-form {
+    /* position: relative; */
+    /* padding-top: 120px; */
+    padding-bottom: 120px;
+    /* margin-bottom: 100px; */
+    /* top: 120px; */
+    height: auto;
+    /* margin-top: 160px; */
+  }
+}

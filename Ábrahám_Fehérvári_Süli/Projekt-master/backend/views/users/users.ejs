@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="hu">
+    <head>
+        <meta charset="UTF-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1.0"
+        />
+        <link
+            rel="stylesheet"
+            href="/css/users/users.css"
+        />
+        <title>Felhasználók</title>
+    </head>
+    <body>
+        <%- include('../nav.ejs') %>
+        <div id="felhasznalo-kontener">
+            <h1>Felhasználók</h1>
+            <!-- <button onclick="idopont_torles()">Régi időpontok törlése</button> -->
+            <div id="felhasznalok-kontener">
+                <% users.forEach(elem => { %>
+                <div class="felhasznalo-egy-kontener">
+                    <table>
+                        <tr>
+                            <td>Név:</td>
+                            <td>
+                                <input
+                                    type="text"
+                                    id="nev"
+                                    value="<%= elem.nev %>"
+                                />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>E-mail:</td>
+                            <td>
+                                <input
+                                    type="text"
+                                    id="email"
+                                    value="<%= elem.email %>"
+                                />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Admin:</td>
+                            <td>
+                                <label for="admin_igen">Igen</label>
+                                <input type="radio" id="admin_igen" onchange="kiir('<%= elem._id %>', 'true')"
+                                name="admin_<%= elem.email%>" value="true" <% if
+                                (elem.admin === true) { %> checked <% } %> />
+
+                                <label for="admin_nem">Nem</label>
+                                <input type="radio" id="admin_nem" onchange="kiir('<%= elem._id %>', 'false')"
+                                name="admin_<%= elem.email%>" value="false" <%
+                                if (elem.admin === false) { %> checked <%} %> />
+                            </td>
+                        </tr>
+                    </table>
+                    <h2>Foglalások:</h2>
+                    <% for( let index = 0; index < reservations.length; index++)
+                    { %> <% if (String(reservations[index].user._id) ===
+                    String(elem._id)) { %>
+                    <p>Időpont: <%= reservations[index].idopont %></p>
+                    <p>Edző: <%= reservations[index].trainer.nev %></p>
+                    <% } %> <% } %>
+
+                    <div id="felhasznalo-gombok">
+                        <button onclick="torol('<%= elem._id %>')">
+                            Törlés
+                        </button>
+                    </div>
+                </div>
+                <% }) %>
+            </div>
+        </div>
+        <script src="/js/felhasznalok.js"></script>
+        <script>
+            async function kiir(id, admin) {
+                try {
+                    const response = await fetch(`http://localhost:3500/api/users-backend/modosit/${id}`,
+                    {
+                        method: 'PATCH',
+                        headers: { 'Content-Type': 'application/json' },
+                        body: JSON.stringify({ admin:  admin }),
+                    }
+                );
+
+                return await response.json();
+                } catch (error) {
+                    console.log('Backend hiba:', error.message);
+                    throw error;
+                }
+            }
+        </script>
+    </body>
+</html>

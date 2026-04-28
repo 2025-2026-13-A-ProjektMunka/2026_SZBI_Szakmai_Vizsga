@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1.0"
+        />
+        <link
+            rel="stylesheet"
+            href="/css/new-trainers.css"
+        />
+        <title>Új edző felvétele.</title>
+    </head>
+    <body>
+        <%- include('nav.ejs') %>
+        <div id="new-trainers-kontener">
+            <h1>Új edző felvétele</h1>
+            <form>
+                <table>
+                    <tr>
+                        <td>Edző neve:</td>
+                        <td>
+                            <input
+                                type="text"
+                                id="nev"
+                            />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Edző elérhetőségei:</td>
+                        <td>
+                            <input
+                                type="text"
+                                id="elerhetoseg"
+                            />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>szakirány:</td>
+                        <td>
+                            <input
+                                type="text"
+                                id="specialization"
+                            />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Tapasztalatok, munkák eredménye:</td>
+                        <td>
+                            <textarea 
+                            type="text"
+                            id="experience"
+                            cols="50"
+                            rows="20"
+                            ></textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Óra díj:</td>
+                        <td>
+                            <input
+                                type="number"
+                                id="ar"
+                            />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Kép:</td>
+                        <td>
+                            <input
+                                type="text"
+                                id="kep"
+                            />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <button onclick="letrehoz(event)">Létrehoz</button>
+                        </td>
+                        <td></td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+        <script src="/js/letrehoz.js"></script>
+    </body>
+</html>

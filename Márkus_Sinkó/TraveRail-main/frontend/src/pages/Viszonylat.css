@@ -1,0 +1,325 @@
+
+
+/* 1. Alapvető resztek */
+:root {
+  overflow-y: auto;
+  --primary-color: #00569a; /* Egy kék szín a kiemeléshez, pl. MÁV kék */
+  --secondary-color: #f0f0f0; /* Világosszürke háttér */
+  --border-color: #ccc;
+  --font-family: sans-serif; /* Használj fontot, ami a képen van, pl. Roboto, Open Sans */
+   --route-grid:
+    90px      /* Indulás */
+    1fr       /* Timeline / Menetidő */
+    90px      /* Érkezés */
+    120px     /* Átszállás */
+    100px;    /* Ár */
+}
+
+.viszonylat-tarto {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 120px;
+  padding-top: 64px; /* ⬅️ Navbar magassága */
+}
+
+.tartalom {
+  display: grid;
+  font-weight: bolder;
+  font-size: larger;
+  grid-template-columns: 35% 65%;
+  width: 100%;
+}
+
+.jobb-tarto {
+  padding: 1em;
+  width: 100%;
+  height: auto;
+  padding-bottom: 100px;
+
+  overflow-y: visible;
+}
+
+.allomasok {
+  display: grid;
+  grid-template-columns:
+    140px   /* Viszonylat honnan */
+    120px   /* Honnan */
+    140px   /* Hova */
+    160px   /* Viszonylat hova */
+    100px   /* Ár */
+    90px;   /* Foglalás */
+
+  align-items: center;     /* ⬅️ függőleges igazítás */
+  column-gap: 8px;
+  padding: 6px 8px;
+  font-size: 13px;
+}
+
+.allomasok.header {
+  font-weight: 600;
+  font-size: 12px;
+  opacity: 0.9;
+}
+
+body {
+  font-family: var(--font-family);
+  margin: 0;
+  background-color: #fff;
+}
+
+header {
+  justify-content: center;
+  text-align: center;
+ 
+}
+
+/* 2. Fő Konténer és Oszlopok (CSS Grid) */
+.route-planner-container {
+  max-width: 1200px; /* Vagy az általad kívánt szélesség */
+  margin: 0 auto;
+  padding: 20px;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content-wrapper {
+  display: block;
+  margin: 0 auto 0 auto; 
+  max-width: 500px;
+  /* A bal oldali oszlop keskenyebb (pl. 300px), a jobb oldali foglalja a maradékot */
+  gap: 30px;
+  color: #ffc107;
+}
+
+
+
+/* 3. Bal Oldali Beállítások Oszlop */
+
+
+
+
+
+
+/* 4. Eredmény Oszlop és Szűrők */
+.results-column {
+/* RoutePlanner.css (4. Eredmény Oszlop és Szűrők szekcióban) */
+    /* Flexbox a tartalom középre igazításához */
+    display: grid;  
+    grid-template-columns: 1fr;
+    /* flex-direction: column; Az elemeket (szűrők, kártyák) egymás alá rendezzük */
+    /* align-items: center; 👈 EZ RAKJA KÖZÉPRE A TARTALMAT VÍZSZINTESEN */
+
+    justify-items: center; /* Középre igazítás vízszintesen */
+    
+    padding: 20px;
+    background-color: white; 
+    border-radius: 8px; 
+
+}
+
+
+
+
+
+
+/* 5. Útvonal Kártya Stílus (Route Card) */
+.route-card {
+  
+/* Max szélesség, hogy ne nyúljon szét az egész oszlopon */
+    max-width: 1200px; 
+    width: 100%; /* Hogy kis képernyőn se legyen túl kicsi */
+    
+    /* Ha a fenti .results-column beállítás nem működne, 
+       a margin auto helyettesítő megoldás lehet, de az align-items: center a jobb: */
+    /* margin-left: auto;
+    margin-right: auto; */
+    margin-left: auto;
+    margin-right: auto;
+
+    margin: 0 auto 15px auto;
+    
+    
+    border: 1px solid var(--border-color);
+    border-radius: 6px;
+    margin-bottom: 12px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+    
+}
+
+
+.summary-row {
+  display: grid;
+  grid-template-columns: 
+    80px          /* Indulás */
+    1fr           /* Timeline / menetidő */
+    80px          /* Érkezés */
+    120px         /* Átszállás */
+    100px;        /* Ár */
+  align-items: center;
+  color: #555;
+  gap: 15px;
+
+}
+
+
+
+
+
+/* 6. Részletes Információk (Expanded Details) */
+
+
+
+.detail-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.train-info {
+  font-weight: bold;
+  color: var(--primary-color);
+}
+
+.price-button {
+  background-color: #a88519; /* Például egy sárga szín */
+  color: #333;
+  padding: 10px 10px;
+  border: none;
+  border-radius: 2px;
+  font-weight: bold;
+}
+
+/* 7. Idővonal (route-timeline) - a legtrükkösebb rész */
+
+
+
+
+/* Az összekötő vonal a pontok között - ez a kulcs a vizuális élményhez */
+
+
+/* 8. Alsó Információs Sáv */
+
+
+
+.results-header {
+  display: grid;
+  grid-template-columns: var(--route-grid);
+  align-items:center;
+  padding: 4px 12px;
+  margin-bottom: 6px;
+
+  font-size: 12px;
+  font-weight: 600;
+  color: #e5e7eb;
+}
+
+.row-arrow {
+  text-align: center;
+  cursor: pointer;
+  font-size: 20px;
+  color: #444;
+  opacity: 0.7;
+}
+
+.row-arrow:hover {
+  opacity: 1;
+}
+
+.row-details {
+  margin: 6px 12px 10px;
+  padding: 12px 16px;
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 6px;
+  font-size: 13px;
+  max-height: 180px;
+  overflow-y: auto;
+}
+
+.details-header {
+  display: flex;
+  margin-bottom: 8px;
+  font-weight: 600;
+}
+
+.details-row {
+  display: flex;
+  gap: 24px;
+  margin-bottom: 8px;
+}
+
+.details-services {
+  display: flex;
+  gap: 12px;
+  opacity: 0.85;
+}
+
+@media screen and (max-width: 1250px) {
+
+  .viszonylat-tarto {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 200px;
+  }
+
+  .tartalom {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .bal-tarto,
+  .jobb-tarto {
+    width: 100%;
+  }
+
+  .jobb-tarto {
+    height: auto;              /* FONTOS */
+    overflow-y: visible;       /* FONTOS */
+  }
+
+  .allomasok {
+    grid-template-columns: 1fr 1fr;  /* ne 6 fix oszlop legyen */
+    row-gap: 6px;
+    font-size: 12px;
+  }
+
+  .summary-row {
+    grid-template-columns: 1fr 1fr;  /* egyszerűsítve mobilra */
+    gap: 8px;
+  }
+  
+   footer {
+
+    padding: 10px 0;        /* kisebb padding */
+    gap: 4px;               /* kisebb távolság */
+    font-size: 13px;        /* kisebb betű */
+  }
+
+  footer a {
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .viszonylat-tarto {
+    margin-bottom: 150px;
+    margin-top: 20px;
+    padding-bottom: 150px;
+  }
+
+  .allomas-fejlec {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .allomas-fejlec .allomasok {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+  }
+
+  .teljes-ar, .teljes-foglalas {
+    display: none;
+  }
+}

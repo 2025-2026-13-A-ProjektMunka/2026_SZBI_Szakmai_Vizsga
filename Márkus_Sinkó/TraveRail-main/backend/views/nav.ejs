@@ -1,0 +1,32 @@
+<style>
+    nav {
+        background-color: blue;
+        display: flex;
+        flex-direction: row;
+        gap: 1em;
+        justify-content: space-between;
+        list-style-type: none;
+    }
+
+    nav #server-kontener {
+        display: flex;
+        flex-direction: row;
+    }
+
+    nav li a {
+        color: whitesmoke;
+        cursor: pointer;
+        display: inline-block;
+        padding: 1em;
+        text-decoration: none;
+    }
+</style>
+<nav>
+    <div id="server-kontener">
+        <li><a href="/api">Főoldal</a></li>
+        <li><a href="/api/schedules-backend">Menetrendek</a></li>
+    </div>
+    <div id="frontend-kontener">
+        <li><a href="http://localhost:5173">Kliens</a></li>
+    </div>
+</nav>

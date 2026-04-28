@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="hu">
+    <head>
+        <meta charset="UTF-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1.0"
+        />
+        <link
+            rel="stylesheet"
+            href="/schedules/css/schedules.css"
+        />
+        <title>Menetrendek</title>
+    </head>
+    <body>
+        <%- include('nav.ejs') %>
+
+        <div id="menetrend-kontener">
+            <h1>Menetrendek</h1>
+            <p><a href="/api/new-schedule">Új menetrend felvétele</a></p>
+
+            <div id="menetrendek-kontener">
+                <% schedules.forEach(elem => { %>
+                <div class="menetrend">
+                    <h2>Járat: <%= elem.jarat %></h2>
+
+                    <h4>Induló állomás: <%= elem.induloallomas %></h4>
+                    <p><img src="<%= elem.kepek[0] %>" /></p>
+                    <h4>Célállomás: <%= elem.celallomas %></h4>
+                    <p><img src="<%= elem.kepek[1] %>" /></p>
+                    <h4>Állomások:</h4>
+                    <ul>
+                        <% elem.allomasok.forEach(elem => { %>
+                        <li><%= elem %></li>
+                        <% }) %>
+                    </ul>
+                    <h4>Időpontok:</h4>
+                    <ul>
+                        <% elem.idopontok.forEach(elem => { %>
+                        <li><%= elem %></li>
+                        <% }) %>
+                    </ul>
+                    <h4>Időtartam:</h4>
+                    <ul>
+                        <% elem.idotartamAllomasig.forEach(elem => { %>
+                        <li><%= elem %></li>
+                        <% }) %>
+                    </ul>
+                    <h4>Ár: <%= elem.ar %></h4>
+                    <h4>Kedvezmények:</h4>
+                    <ul>
+                        <% elem.kedvezmeny.forEach(elem => { %>
+                        <li><%= elem %></li>
+                        <% }) %>
+                    </ul>
+                    <h4>Életkor:</h4>
+                    <ul>
+                        <% elem.kortablak.forEach(elem => { %>
+                        <li><%= elem %></li>
+                        <% }) %>
+                    </ul>
+                    <h4>Időtartam: <%= elem.idotartam %></h4>
+                    <% if (elem.klima === "true") { %>
+                    <h4>Van klíma</h4>
+                    <% } else { %>
+                    <h4>Nincs klíma</h4>
+                    <% } %> <% if (elem.helyjegy === "true") { %>
+                    <h4>Van helyjegy</h4>
+                    <% } else { %>
+                    <h4>Nincs helyjegy</h4>
+                    <% } %>
+
+                    <div id="menetrend-gombok">
+                        <a href="/api/one-schedule-backend/<%= elem._id %>"
+                            >Lekérés</a
+                        >
+                        <button onclick="torol('<%= elem._id %>')">
+                            Törlés
+                        </button>
+                    </div>
+                </div>
+                <% }) %>
+            </div>
+        </div>
+
+        <script src="/schedules/js/menetrend-kezel.js"></script>
+    </body>
+</html>

@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wdth,wght@104.2,300..700&display=swap');
+
+.trainers-page-container {
+    background-color: #0c0c0c;
+    color: #f4f4f4;
+    font-family: 'Fredoka', sans-serif;
+    padding-bottom: 50px;
+    min-height: 100vh;
+}
+
+/* === HERO === */
+.trainers-hero-banner {
+    height: 350px;
+    background: linear-gradient(rgba(0,0,0,0.85), rgba(0,0,0,0.85)), 
+                url('https://images.unsplash.com/photo-1534438327276-14e5300c3a48?q=80&w=2070&auto=format&fit=crop') center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-bottom: 2px solid #a68a17;
+}
+
+.trainers-hero-title {
+    font-size: 3.5rem;
+    color: #a68a17;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.trainers-hero-subtitle {
+    font-size: 1.2rem;
+    color: #fff;
+    letter-spacing: 1px;
+}
+
+/* === SZÖVEG ÉS CÍMEK === */
+.trainers-intro-box {
+    text-align: center;
+    margin: 60px 0 40px;
+}
+
+.trainers-section-title {
+    color: #a68a17;
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.trainers-section-desc {
+    color: #999;
+}
+
+/* === GRID === */
+.trainers-card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* === KÁRTYA === */
+.trainers-profile-card {
+    background: #161616;
+    border-radius: 20px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #282828;
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    cursor: pointer;
+    height: 100%;
+}
+
+.trainers-profile-card:hover {
+    transform: translateY(-12px);
+    border-color: #a68a17;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.6);
+}
+
+/* === KÉP === */
+.trainers-image-wrapper {
+    position: relative;
+    height: 400px;
+    overflow: hidden;
+}
+
+.trainers-portrait {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+}
+
+.trainers-profile-card:hover .trainers-portrait {
+    transform: scale(1.05);
+}
+
+.trainers-card-overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(166, 138, 23, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: 0.3s ease;
+}
+
+.trainers-overlay-button {
+    background: #a68a17;
+    color: #fff;
+    padding: 12px 24px;
+    border-radius: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+}
+
+.trainers-profile-card:hover .trainers-card-overlay { 
+    opacity: 1; 
+}
+
+/* === SZÖVEG TARTALOM === */
+.trainers-card-info {
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    text-align: center;
+}
+
+.trainers-name-label {
+    font-size: 1.6rem;
+    color: #fff;
+    margin-bottom: 8px;
+}
+
+.trainers-spec-badge {
+    color: #a68a17;
+    font-size: 0.9rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    display: inline-block;
+    letter-spacing: 1px;
+}
+
+.trainers-description-text {
+    font-size: 0.95rem;
+    color: #888;
+    line-height: 1.5;
+    margin-top: auto;
+    font-style: italic;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+    .trainers-hero-title {
+        font-size: 2.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .trainers-card-grid { 
+        grid-template-columns: 1fr; 
+    }
+    .trainers-image-wrapper {
+        height: 350px;
+    }
+}

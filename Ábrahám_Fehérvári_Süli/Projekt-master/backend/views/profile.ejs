@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= title %></title>
+    <link rel="stylesheet" href="/css/index.css"> 
+    <link rel="stylesheet" href="/css/trainers.css">
+    </head>
+<body>
+    <%- include('./nav.ejs') %>
+
+    <main class="profile-container container"> 
+        <h1>Saját Profil</h1>
+        
+        <% if (message) { %>
+            <div class="alert <%= message.includes('sikeresen') ? 'alert-success' : 'alert-error' %>">
+                <%= message %>
+            </div>
+        <% } %>
+
+        <form action="/myprofile" method="POST" class="profile-form">
+            
+            <div class="form-group">
+                <label for="name">Név:</label>
+                <input type="text" id="name" name="name" value="<%= user.name %>" required class="form-control">
+            </div>
+            
+            <div class="form-group">
+                <label for="email">E-mail cím:</label>
+                <input type="email" id="email" name="email" value="<%= user.email %>" required class="form-control">
+            </div>
+            
+            <div class="form-group">
+                <label for="password">Új jelszó:</label>
+                <input type="password" id="password" name="password" placeholder="Hagyja üresen, ha nem változtat" class="form-control">
+            </div>
+
+            <button type="submit" class="btn btn-primary">Adatok frissítése</button>
+        </form>
+        
+        <p class="mt-3">A regisztrált felhasználó ID-je: <strong><%= user._id %></strong></p>
+        
+    </main>
+    
+    </body>
+</html>

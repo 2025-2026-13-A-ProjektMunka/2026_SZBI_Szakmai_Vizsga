@@ -1,0 +1,7 @@
+@import url('./alap.css');
+@import url('./nav.css');
+
+#main-kontener {
+    margin: auto;
+    width: 80%;
+}

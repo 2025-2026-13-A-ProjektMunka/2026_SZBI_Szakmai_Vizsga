@@ -1,0 +1,136 @@
+/* Alap */
+body {
+    font-family: "Segoe UI", Roboto, sans-serif;
+    background: #f2f3f5;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Lista */
+#trainers-list {
+    max-width: 1100px;
+    margin: 40px auto;
+    padding: 0;
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 25px;
+}
+
+/* Kártya */
+.trainer-card {
+    background: white;
+    border-radius: 16px;
+    padding: 20px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    /* transition: 0.4s ease; */
+    position: relative;
+    overflow: hidden;
+}
+
+/* Hover animáció */
+.trainer-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+/* Fénycsík effekt */
+.trainer-card::after {
+    content: "";
+    position: absolute;
+    top: -100%;
+    left: -100%;
+    width: 300%;
+    height: 300%;
+    background: linear-gradient(
+        120deg,
+        transparent,
+        rgba(255,255,255,0.4),
+        transparent
+    );
+    transform: rotate(25deg);
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.trainer-card:hover::after {
+    opacity: 1;
+}
+
+/* ---- KÉPARÁNY BEÁLLÍTÁS ---- */
+/* Egységes portré arány (4:5) */
+.trainer-img-wrapper {
+    width: 100%;
+    aspect-ratio: 4 / 5;   /* → egyenlő portré méret */
+    border-radius: 12px;
+    overflow: hidden;
+    background: #ddd;
+}
+
+/* Kép viselkedése */
+.trainer-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;      
+    object-position: center; 
+}
+
+/* Info rész */
+.trainer-info h2 {
+    font-size: 1.4rem;
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
+
+.trainer-info i {
+    color: #3c8dff;
+    margin-right: 6px;
+}
+
+.trainer-info p {
+    font-size: 1rem;
+    margin: 6px 0;
+    color: #555;
+}
+
+/* Gombok */
+.trainer-actions {
+    margin-top: 18px;
+    display: flex;
+    gap: 10px;
+}
+
+.modosit,
+.torol {
+    flex: 1;
+    padding: 10px 12px;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+    text-align: center;
+    transition: .3s;
+    z-index: 100;
+}
+
+/* Módosítás */
+.modosit {
+    background: #f1c40f;
+    color: white;
+    text-decoration: none;
+}
+
+.modosit:hover {
+    background: #d4a209;
+}
+
+/* Törlés */
+.torol {
+    background: #e74c3c;
+    color: white;
+    border: none;
+}
+
+.torol:hover {
+    background: #c0392b;
+}

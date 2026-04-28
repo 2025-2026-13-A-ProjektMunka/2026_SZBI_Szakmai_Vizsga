@@ -1,0 +1,178 @@
+/* Alapstílusok */
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #111;
+  color: #f5f5f5;
+}
+
+.home {
+  text-align: center;
+}
+
+/* HERO SZEKCIÓ */
+.hero {
+  background: url('https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&w=1600&q=80')
+    no-repeat center center/cover;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  position: relative;
+}
+
+.hero::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2;
+  max-width: 600px;
+  padding: 20px;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  letter-spacing: 2px;
+  color: #f5c542;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 1.1rem;
+  margin-bottom: 25px;
+}
+
+.btn-primary {
+  display: inline-block;
+  background-color: #f5c542;
+  color: #020202;
+  padding: 10px 25px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #fff;
+  transform: scale(1.05);
+}
+
+/* ABOUT SZEKCIÓ */
+.about {
+  padding: 60px 20px;
+  background-color: #1a1a1a;
+  color: whitesmoke;
+}
+
+.about h2 {
+  color: #f5c542;
+  margin-bottom: 15px;
+}
+
+.about p {
+  max-width: 700px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+/* SZOLGÁLTATÁSOK */
+.services {
+  padding: 60px 20px;
+}
+
+.services h2 {
+  color: #f5c542;
+  margin-bottom: 40px;
+}
+
+.service-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card {
+  background-color: #222;
+  border: 1px solid #333;
+  color: whitesmoke;
+  border-radius: 12px;
+  padding: 20px;
+  width: 280px;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card h3 {
+  color: #f5c542;
+  margin-bottom: 10px;
+}
+
+/* FELSZERELTSÉG */
+.equipment {
+  padding: 60px 20px;
+  background-color: #1a1a1a;
+  color: whitesmoke;
+}
+
+.equipment h2 {
+  color: #f5c542;
+  margin-bottom: 15px;
+}
+
+.equipment p {
+  max-width: 700px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+/* KAPCSOLAT */
+.contact {
+  background-color: #000;
+  color: whitesmoke;
+  padding: 40px 20px;
+  border-top: 2px solid #f5c542;
+}
+
+.contact a {
+  color: #f5c542;
+  text-decoration: none;
+}
+
+.contact a:hover {
+  text-decoration: underline;
+}
+
+.contact h2 {
+  color: #f5c542;
+  margin-bottom: 10px;
+}
+
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 2.2rem;
+  }
+
+  .service-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    width: 90%;
+  }
+}

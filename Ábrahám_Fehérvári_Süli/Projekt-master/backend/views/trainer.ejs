@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1.0"
+        />
+        <link
+            rel="stylesheet"
+            href="/css/new-trainers.css"
+        />
+        <title>Edző módosítása</title>
+    </head>
+    <body>
+        <%- include('nav.ejs') %>
+        <div id="new-trainers-kontener">
+            <h1>Edző módosítása</h1>
+            <form>
+                <table>
+                    <tr>
+                        <td>Edző neve:</td>
+                        <td>
+                            <input
+                                type="text"
+                                id="nev"
+                                value="<%= trainer.nev %>"
+                                />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Edző elérhetőségei:</td>
+                            <td>
+                                <input
+                                type="text"
+                                id="elerhetoseg"
+                                value="<%= trainer.elerhetoseg %>"
+                                />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>szakirány:</td>
+                            <td>
+                                <input
+                                type="text"
+                                id="specialization"
+                                value="<%= trainer.specialization %>"
+                                />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Tapasztalatok, munkák eredménye:</td>
+                            <td>
+                                <textarea 
+                                type="text"
+                                id="experience"
+                                cols="50"
+                                rows="20"
+                                ><%= trainer.experience %></textarea>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Óra díj:</td>
+                            <td>
+                                <input
+                                type="number"
+                                id="ar"
+                                value="<%= trainer.ar %>"
+                                />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Kép:</td>
+                            <td>
+                                <input
+                                type="text"
+                                id="kep"
+                                value="<%= trainer.kep %>"
+                            />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <button onclick="modosit(event, '<%= trainer._id %>')">Módosít</button>
+                        </td>
+                        <td></td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+        <script src="/js/trainer-modosit.js"></script>
+    </body>
+</html>
