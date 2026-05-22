@@ -1,0 +1,15 @@
+C:\Users\Peter\Desktop\szoftveres_vizsga_2026\Szakmai_Vizsga\EUTagorszagokKonzol\EUTagorszagokKonzol\bin\Debug\EUTagorszagokKonzol.exe.config
+C:\Users\Peter\Desktop\szoftveres_vizsga_2026\Szakmai_Vizsga\EUTagorszagokKonzol\EUTagorszagokKonzol\bin\Debug\EUTagorszagokKonzol.exe
+C:\Users\Peter\Desktop\szoftveres_vizsga_2026\Szakmai_Vizsga\EUTagorszagokKonzol\EUTagorszagokKonzol\bin\Debug\EUTagorszagokKonzol.pdb
+C:\Users\Peter\Desktop\szoftveres_vizsga_2026\Szakmai_Vizsga\EUTagorszagokKonzol\EUTagorszagokKonzol\obj\Debug\EUTagorszagokKonzol.csproj.AssemblyReference.cache
+C:\Users\Peter\Desktop\szoftveres_vizsga_2026\Szakmai_Vizsga\EUTagorszagokKonzol\EUTagorszagokKonzol\obj\Debug\EUTagorszagokKonzol.csproj.CoreCompileInputs.cache
+C:\Users\Peter\Desktop\szoftveres_vizsga_2026\Szakmai_Vizsga\EUTagorszagokKonzol\EUTagorszagokKonzol\obj\Debug\EUTagorszagokKonzol.exe
+C:\Users\Peter\Desktop\szoftveres_vizsga_2026\Szakmai_Vizsga\EUTagorszagokKonzol\EUTagorszagokKonzol\obj\Debug\EUTagorszagokKonzol.pdb
+C:\Users\Peter\Desktop\szoftveres_vizsga_2026\Szakmai_Vizsga\EUTagorszagokKonzol\EUTagorszagokKonzol\obj\Debug\EUTagorszagokKonzol.exe.config
+C:\Users\Peter\Desktop\2026_szakmai_vizsga\2026_Szakmai_Vizsga_Eles\EUTagorszagokKonzol\EUTagorszagokKonzol\bin\Debug\EUTagorszagokKonzol.exe.config
+C:\Users\Peter\Desktop\2026_szakmai_vizsga\2026_Szakmai_Vizsga_Eles\EUTagorszagokKonzol\EUTagorszagokKonzol\bin\Debug\EUTagorszagokKonzol.exe
+C:\Users\Peter\Desktop\2026_szakmai_vizsga\2026_Szakmai_Vizsga_Eles\EUTagorszagokKonzol\EUTagorszagokKonzol\bin\Debug\EUTagorszagokKonzol.pdb
+C:\Users\Peter\Desktop\2026_szakmai_vizsga\2026_Szakmai_Vizsga_Eles\EUTagorszagokKonzol\EUTagorszagokKonzol\obj\Debug\EUTagorszagokKonzol.csproj.AssemblyReference.cache
+C:\Users\Peter\Desktop\2026_szakmai_vizsga\2026_Szakmai_Vizsga_Eles\EUTagorszagokKonzol\EUTagorszagokKonzol\obj\Debug\EUTagorszagokKonzol.csproj.CoreCompileInputs.cache
+C:\Users\Peter\Desktop\2026_szakmai_vizsga\2026_Szakmai_Vizsga_Eles\EUTagorszagokKonzol\EUTagorszagokKonzol\obj\Debug\EUTagorszagokKonzol.exe
+C:\Users\Peter\Desktop\2026_szakmai_vizsga\2026_Szakmai_Vizsga_Eles\EUTagorszagokKonzol\EUTagorszagokKonzol\obj\Debug\EUTagorszagokKonzol.pdb

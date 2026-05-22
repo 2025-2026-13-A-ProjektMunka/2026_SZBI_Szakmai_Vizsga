@@ -1,0 +1,51 @@
+.register-kontener {
+    background-image: url('../public/images/tagorszagok.webp');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+}
+
+.register-kontener tbody {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.register-kontener tbody td:nth-child(1) {
+    color: rgb(255, 0, 0);
+    font-size: 2em;
+    text-shadow: 2px 2px 2px rgb(255, 255, 255);
+}
+
+.register-kontener tbody td:nth-child(2) {
+    float: right;
+}
+
+.register-kontener tbody input {
+    font-size: 1.5em;
+    padding: 5px;
+}
+
+.register-kontener tbody button {
+    background-color: rgb(255, 29, 29);
+    border: none;
+    color: whitesmoke;
+    font-size: 1.5em;
+    padding: 10px;
+}
+
+@media screen and (max-width: 1200px) {
+    .register-kontener {
+        background-size: contain;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .register-kontener tbody td:nth-child(1) {
+        font-size: 2em;
+        text-shadow: 2px 2px 2px black;
+    }
+}

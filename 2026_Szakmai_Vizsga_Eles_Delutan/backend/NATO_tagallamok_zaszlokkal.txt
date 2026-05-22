@@ -1,0 +1,32 @@
+Albánia;28748;2793000;Tirana;557000;2009;8000;https://upload.wikimedia.org/wikipedia/commons/3/36/Flag_of_Albania.svg
+Belgium;30528;11780000;Brüsszel;1200000;1949;25000;https://upload.wikimedia.org/wikipedia/commons/6/65/Flag_of_Belgium.svg
+Bulgária;110994;6448000;Szófia;1280000;2004;37000;https://upload.wikimedia.org/wikipedia/commons/9/9a/Flag_of_Bulgaria.svg
+Kanada;9984670;40100000;Ottawa;1017000;1949;68000;https://upload.wikimedia.org/wikipedia/commons/c/cf/Flag_of_Canada.svg
+Horvátország;56594;3850000;Zágráb;770000;2009;15000;https://upload.wikimedia.org/wikipedia/commons/1/1b/Flag_of_Croatia.svg
+Csehország;78866;10900000;Prága;1380000;1999;28000;https://upload.wikimedia.org/wikipedia/commons/c/cb/Flag_of_the_Czech_Republic.svg
+Dánia;43094;5960000;Koppenhága;810000;1949;17000;https://upload.wikimedia.org/wikipedia/commons/9/9c/Flag_of_Denmark.svg
+Észtország;45227;1370000;Tallinn;454000;2004;7700;https://upload.wikimedia.org/wikipedia/commons/8/8f/Flag_of_Estonia.svg
+Finnország;338455;5560000;Helsinki;664000;2023;24000;https://upload.wikimedia.org/wikipedia/commons/b/bc/Flag_of_Finland.svg
+Franciaország;551695;68000000;Párizs;2100000;1949;205000;https://upload.wikimedia.org/wikipedia/commons/c/c3/Flag_of_France.svg
+Németország;357588;84500000;Berlin;3850000;1955;183000;https://upload.wikimedia.org/wikipedia/commons/b/ba/Flag_of_Germany.svg
+Görögország;131957;10400000;Athén;3150000;1952;143000;https://upload.wikimedia.org/wikipedia/commons/5/5c/Flag_of_Greece.svg
+Magyarország;93030;9590000;Budapest;1680000;1999;37000;https://upload.wikimedia.org/wikipedia/commons/c/c1/Flag_of_Hungary.svg
+Izland;103000;393000;Reykjavík;140000;1949;0;https://upload.wikimedia.org/wikipedia/commons/c/ce/Flag_of_Iceland.svg
+Olaszország;301340;58900000;Róma;4300000;1949;165000;https://upload.wikimedia.org/wikipedia/commons/0/03/Flag_of_Italy.svg
+Lettország;64589;1880000;Riga;605000;2004;6600;https://upload.wikimedia.org/wikipedia/commons/8/84/Flag_of_Latvia.svg
+Litvánia;65300;2890000;Vilnius;592000;2004;23000;https://upload.wikimedia.org/wikipedia/commons/1/11/Flag_of_Lithuania.svg
+Luxemburg;2586;672000;Luxemburg;132000;1949;1000;https://upload.wikimedia.org/wikipedia/commons/d/da/Flag_of_Luxembourg.svg
+Montenegró;13812;617000;Podgorica;190000;2017;2400;https://upload.wikimedia.org/wikipedia/commons/6/64/Flag_of_Montenegro.svg
+Hollandia;41543;17900000;Amszterdam;920000;1949;41000;https://upload.wikimedia.org/wikipedia/commons/2/20/Flag_of_the_Netherlands.svg
+Észak-Macedónia;25713;1830000;Szkopje;526000;2020;8000;https://upload.wikimedia.org/wikipedia/commons/7/79/Flag_of_North_Macedonia.svg
+Norvégia;385207;5550000;Oslo;710000;1949;23000;https://upload.wikimedia.org/wikipedia/commons/d/d9/Flag_of_Norway.svg
+Lengyelország;312696;37800000;Varsó;1860000;1999;216000;https://upload.wikimedia.org/wikipedia/commons/1/12/Flag_of_Poland.svg
+Portugália;92212;10300000;Lisszabon;545000;1949;27000;https://upload.wikimedia.org/wikipedia/commons/5/5c/Flag_of_Portugal.svg
+Románia;238397;19000000;Bukarest;1710000;2004;81000;https://upload.wikimedia.org/wikipedia/commons/7/73/Flag_of_Romania.svg
+Szlovákia;49035;5430000;Pozsony;475000;2004;18000;https://upload.wikimedia.org/wikipedia/commons/e/e6/Flag_of_Slovakia.svg
+Szlovénia;20273;2120000;Ljubljana;295000;2004;7300;https://upload.wikimedia.org/wikipedia/commons/f/f0/Flag_of_Slovenia.svg
+Spanyolország;505990;48500000;Madrid;3300000;1982;133000;https://upload.wikimedia.org/wikipedia/commons/9/9a/Flag_of_Spain.svg
+Svédország;450295;10500000;Stockholm;980000;2024;24000;https://upload.wikimedia.org/wikipedia/commons/4/4c/Flag_of_Sweden.svg
+Törökország;783356;85300000;Ankara;5700000;1952;425000;https://upload.wikimedia.org/wikipedia/commons/b/b4/Flag_of_Turkey.svg
+Egyesült Királyság;243610;69100000;London;9000000;1949;184000;https://upload.wikimedia.org/wikipedia/commons/a/ae/Flag_of_the_United_Kingdom.svg
+Egyesült Államok;9833520;340000000;Washington D.C.;690000;1949;1328000;https://upload.wikimedia.org/wikipedia/commons/a/a4/Flag_of_the_United_States.svg

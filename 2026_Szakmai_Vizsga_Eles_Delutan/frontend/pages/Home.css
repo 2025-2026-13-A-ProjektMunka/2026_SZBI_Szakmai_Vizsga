@@ -1,0 +1,29 @@
+.home-kontener {
+    background-image: url('../public/images/nato.jpg');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+    width: 100vw;
+}
+
+.home-kontener h1 {
+    color: rgb(78, 29, 255);
+    font-size: 4em;
+    text-shadow: 5px 5px 5px black;
+}
+
+@media screen and (max-width: 1200px) {
+    .home-kontener {
+        background-size: contain;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .home-kontener h1 {
+        font-size: 2em;
+        text-shadow: 2px 2px 2px black;
+    }
+}

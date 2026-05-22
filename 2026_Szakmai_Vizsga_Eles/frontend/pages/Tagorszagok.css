@@ -1,0 +1,82 @@
+.tagorszagok-kontener {
+    background-attachment: fixed;
+    background-image: url('../public/images/tagorszagok.webp');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    display: flex;
+    flex-direction: column;
+    height: 90%;
+    margin: 0px auto 1em;
+    width: 90vw;
+}
+
+.tagorszagok-kontener h1 {
+    color: red;
+    font-size: 4em;
+    text-shadow: 5px 5px 5px black;
+}
+
+.tagorszagok-belso-kontener {
+    display: grid;
+    gap: 1em;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.tagorszag-kontener {
+    background-color: rgba(90, 30, 255, 0.918);
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px yellow;
+    color: rgb(211, 211, 211);
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+    margin-top: 1em;
+    padding: 1em;
+    text-shadow: 2px 2px 0px rgb(46, 46, 46);
+}
+
+.kep-kontener {
+    height: 300px;
+    margin: 1em auto;
+    width: 90%;
+}
+
+.tagorszag-kontener img {
+    height: 90%;
+    object-fit: cover;
+    width: 100%;
+}
+
+@media screen and (max-width: 1200px) {
+    .tagorszagok-kontener {
+        background-size: contain;
+        background-position: center;
+    }
+
+    .tagorszagok-belso-kontener {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .tagorszagok-kontener {
+        background-position: center;
+    }
+
+    .tagorszagok-kontener h1 {
+        font-size: 2em;
+        text-shadow: 2px 2px 2px black;
+    }
+
+    .tagorszagok-belso-kontener {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .tagorszag-kontener {
+        flex-direction: column;
+    }
+
+    .kep-kontener {
+        width: 80%;
+    }
+}

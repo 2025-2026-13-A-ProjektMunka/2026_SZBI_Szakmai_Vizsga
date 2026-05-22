@@ -1,0 +1,51 @@
+.login-kontener {
+    background-image: url('../public/images/tagorszagok.webp');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+}
+
+.login-kontener tbody {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.login-kontener tbody td:nth-child(1) {
+    color: rgb(255, 0, 0);
+    font-size: 2em;
+    text-shadow: 2px 2px 2px rgb(255, 255, 255);
+}
+
+.login-kontener tbody td:nth-child(2) {
+    float: right;
+}
+
+.login-kontener tbody input {
+    font-size: 1.5em;
+    padding: 5px;
+}
+
+.login-kontener tbody button {
+    background-color: rgb(255, 29, 29);
+    border: none;
+    color: whitesmoke;
+    font-size: 1.5em;
+    padding: 10px;
+}
+
+@media screen and (max-width: 1200px) {
+    .login-kontener {
+        background-size: contain;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .login-kontener tbody td:nth-child(1) {
+        font-size: 2em;
+        text-shadow: 2px 2px 2px black;
+    }
+}
