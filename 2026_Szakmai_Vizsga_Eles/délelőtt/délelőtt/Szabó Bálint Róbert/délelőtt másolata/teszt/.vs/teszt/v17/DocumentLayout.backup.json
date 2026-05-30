@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\szoftverfejleszto\\Desktop\\Szab\u00F3 B\u00E1lint R\u00F3bert\\d\u00E9lel\u0151tt\\teszt\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{72B82AF1-5D30-4442-AEE6-73DDD87B3C37}|teszt\\teszt.csproj|c:\\users\\szoftverfejleszto\\desktop\\szab\u00F3 b\u00E1lint r\u00F3bert\\d\u00E9lel\u0151tt\\teszt\\teszt\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72B82AF1-5D30-4442-AEE6-73DDD87B3C37}|teszt\\teszt.csproj|solutionrelative:teszt\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\szoftverfejleszto\\Desktop\\Szab\u00F3 B\u00E1lint R\u00F3bert\\d\u00E9lel\u0151tt\\teszt\\teszt\\Program.cs",
+              "RelativeDocumentMoniker": "teszt\\Program.cs",
+              "ToolTip": "C:\\Users\\szoftverfejleszto\\Desktop\\Szab\u00F3 B\u00E1lint R\u00F3bert\\d\u00E9lel\u0151tt\\teszt\\teszt\\Program.cs",
+              "RelativeToolTip": "teszt\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-27T08:36:37.517Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

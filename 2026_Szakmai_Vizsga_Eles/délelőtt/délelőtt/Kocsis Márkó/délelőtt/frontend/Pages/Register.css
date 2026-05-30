@@ -1,0 +1,10 @@
+body{
+    color:  red;
+
+}
+
+button{
+    background-color: red;
+    color: white;
+    position: fixed;
+}

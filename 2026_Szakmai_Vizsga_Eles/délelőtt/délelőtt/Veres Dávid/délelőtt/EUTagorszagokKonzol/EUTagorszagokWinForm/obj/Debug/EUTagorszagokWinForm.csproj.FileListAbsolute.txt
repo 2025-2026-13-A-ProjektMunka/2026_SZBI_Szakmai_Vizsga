@@ -1,0 +1,15 @@
+C:\Users\szoftverfejleszto\Desktop\Veres Dávid\délelőtt\EUTagorszagokKonzol\EUTagorszagokWinForm\bin\Debug\EUTagorszagokWinForm.exe.config
+C:\Users\szoftverfejleszto\Desktop\Veres Dávid\délelőtt\EUTagorszagokKonzol\EUTagorszagokWinForm\bin\Debug\EUTagorszagokWinForm.exe
+C:\Users\szoftverfejleszto\Desktop\Veres Dávid\délelőtt\EUTagorszagokKonzol\EUTagorszagokWinForm\bin\Debug\EUTagorszagokWinForm.pdb
+C:\Users\szoftverfejleszto\Desktop\Veres Dávid\délelőtt\EUTagorszagokKonzol\EUTagorszagokWinForm\bin\Debug\EUTagorszagokKonzol.exe
+C:\Users\szoftverfejleszto\Desktop\Veres Dávid\délelőtt\EUTagorszagokKonzol\EUTagorszagokWinForm\bin\Debug\EUTagorszagokKonzol.pdb
+C:\Users\szoftverfejleszto\Desktop\Veres Dávid\délelőtt\EUTagorszagokKonzol\EUTagorszagokWinForm\bin\Debug\EUTagorszagokKonzol.exe.config
+C:\Users\szoftverfejleszto\Desktop\Veres Dávid\délelőtt\EUTagorszagokKonzol\EUTagorszagokWinForm\obj\Debug\EUTagorszagokWinForm.csproj.AssemblyReference.cache
+C:\Users\szoftverfejleszto\Desktop\Veres Dávid\délelőtt\EUTagorszagokKonzol\EUTagorszagokWinForm\obj\Debug\EUTagorszagokWinForm.Form1.resources
+C:\Users\szoftverfejleszto\Desktop\Veres Dávid\délelőtt\EUTagorszagokKonzol\EUTagorszagokWinForm\obj\Debug\EUTagorszagokWinForm.Properties.Resources.resources
+C:\Users\szoftverfejleszto\Desktop\Veres Dávid\délelőtt\EUTagorszagokKonzol\EUTagorszagokWinForm\obj\Debug\EUTagorszagokWinForm.csproj.GenerateResource.cache
+C:\Users\szoftverfejleszto\Desktop\Veres Dávid\délelőtt\EUTagorszagokKonzol\EUTagorszagokWinForm\obj\Debug\EUTagorszagokWinForm.csproj.CoreCompileInputs.cache
+C:\Users\szoftverfejleszto\Desktop\Veres Dávid\délelőtt\EUTagorszagokKonzol\EUTagorszagokWinForm\obj\Debug\EUTagors.909401E4.Up2Date
+C:\Users\szoftverfejleszto\Desktop\Veres Dávid\délelőtt\EUTagorszagokKonzol\EUTagorszagokWinForm\obj\Debug\EUTagorszagokWinForm.exe
+C:\Users\szoftverfejleszto\Desktop\Veres Dávid\délelőtt\EUTagorszagokKonzol\EUTagorszagokWinForm\obj\Debug\EUTagorszagokWinForm.pdb
+C:\Users\szoftverfejleszto\Desktop\Veres Dávid\délelőtt\EUTagorszagokKonzol\EUTagorszagokWinForm\obj\Debug\EUTagorszagokWinForm.exe.config

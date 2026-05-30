@@ -1,0 +1,14 @@
+/* Itt újrahasználom a Register.css-ben írt stílusozásokat */
+.form-container {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.form-container button {
+    float: right;
+    margin-top: 10px;
+}

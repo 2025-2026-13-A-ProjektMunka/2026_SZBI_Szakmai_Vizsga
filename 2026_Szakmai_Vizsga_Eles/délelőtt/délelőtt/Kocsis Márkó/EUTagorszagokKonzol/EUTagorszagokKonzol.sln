@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.37314.3 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EUTagorszagokKonzol", "EUTagorszagokKonzol\EUTagorszagokKonzol.csproj", "{EA4458AA-75E5-4243-84A5-C269384C5DBC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EUTagorszagokWinForm", "EUTagorszagokWinForm\EUTagorszagokWinForm.csproj", "{EA890B17-FE73-42B9-9942-F73E0DEB77A7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EA4458AA-75E5-4243-84A5-C269384C5DBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA4458AA-75E5-4243-84A5-C269384C5DBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA4458AA-75E5-4243-84A5-C269384C5DBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA4458AA-75E5-4243-84A5-C269384C5DBC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA890B17-FE73-42B9-9942-F73E0DEB77A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA890B17-FE73-42B9-9942-F73E0DEB77A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA890B17-FE73-42B9-9942-F73E0DEB77A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA890B17-FE73-42B9-9942-F73E0DEB77A7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9122AE82-BB3B-4C05-8AA3-3EAC3CE7E759}
+	EndGlobalSection
+EndGlobal

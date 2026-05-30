@@ -1,0 +1,55 @@
+.tagallamok {
+    font-size: 1.1rem;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    margin: none !important;
+}
+
+.tagallam {
+    background-color: rgba(131, 32, 224, 0.673);
+    border-radius: 10px;
+    color: white;
+    height: 500px;
+    padding: 30px;
+    box-shadow: 7px 7px 0px 0px rgba(255, 248, 56, 0.57);
+    border-radius: 8px;
+}
+
+.tagallam li {
+    list-style-type: none;
+}
+
+.tagallam img {
+    width: 300px;
+    height: max-content;
+    float: right;
+    margin-left: 20px;
+}
+
+.belsoGrid {
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+
+
+@media (max-width: 1800px) {
+  .tagallamok {
+    grid-template-columns: auto auto;
+  }
+}
+
+@media (max-width: 900px) {
+  .tagallamok {
+    grid-template-columns: auto;
+  }
+  .tagallamok img {
+    float: none;
+  }
+  .img-wrapper { margin: auto; max-width: max-content; margin-top: 20px; }
+  .tagallam { height: auto; }
+  .belsoGrid {
+    grid-template-columns: auto;
+    grid-template-rows: auto auto;
+  }
+}

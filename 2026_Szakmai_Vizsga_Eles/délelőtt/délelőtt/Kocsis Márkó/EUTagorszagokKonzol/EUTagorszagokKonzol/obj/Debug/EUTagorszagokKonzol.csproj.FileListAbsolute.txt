@@ -1,0 +1,2 @@
+C:\Users\szoftverfejleszto\Desktop\Kocsis Márkó\EUTagorszagokKonzol\EUTagorszagokKonzol\obj\Debug\EUTagorszagokKonzol.csproj.AssemblyReference.cache
+C:\Users\szoftverfejleszto\Desktop\Kocsis Márkó\EUTagorszagokKonzol\EUTagorszagokKonzol\obj\Debug\EUTagorszagokKonzol.csproj.CoreCompileInputs.cache

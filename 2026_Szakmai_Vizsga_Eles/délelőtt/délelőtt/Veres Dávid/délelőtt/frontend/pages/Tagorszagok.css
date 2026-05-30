@@ -1,0 +1,15 @@
+.tag-kontener {
+    background-image: url('../public/images/tagorszagok.webp');
+    background-repeat: no-repeat;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 180vh;
+    height: 80vh;
+}
+
+.tag-kontener h1 {
+    color: red;
+    
+}

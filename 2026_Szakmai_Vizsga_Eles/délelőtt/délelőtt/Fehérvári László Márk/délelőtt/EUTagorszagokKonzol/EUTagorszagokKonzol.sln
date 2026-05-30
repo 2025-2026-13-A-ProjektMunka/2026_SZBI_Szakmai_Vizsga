@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.37314.3 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EUTagorszagokKonzol", "EUTagorszagokKonzol\EUTagorszagokKonzol.csproj", "{B8929401-18EC-4DFE-83A1-864804B2CB0D}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "EUTagorszagokWinForm", "EUTagorszagokWinForm\EUTagorszagokWinForm.vbproj", "{A187DF19-8D43-4D59-9521-650A4DA8DA81}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B8929401-18EC-4DFE-83A1-864804B2CB0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8929401-18EC-4DFE-83A1-864804B2CB0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8929401-18EC-4DFE-83A1-864804B2CB0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8929401-18EC-4DFE-83A1-864804B2CB0D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A187DF19-8D43-4D59-9521-650A4DA8DA81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A187DF19-8D43-4D59-9521-650A4DA8DA81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A187DF19-8D43-4D59-9521-650A4DA8DA81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A187DF19-8D43-4D59-9521-650A4DA8DA81}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0B28A8DD-A37B-4409-8211-0321DDF93210}
+	EndGlobalSection
+EndGlobal
