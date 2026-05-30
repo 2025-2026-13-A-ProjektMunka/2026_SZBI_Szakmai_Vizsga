@@ -1,0 +1,17 @@
+body {
+    background-image: url('../public/images/tagorszagok.webp');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+@media screen and (min-width: 600px) {
+  body {
+    background-color: white;
+  }
+}
+@media screen and (max-width: 1200px) {
+  body {
+    background-color: white;
+  }
+}

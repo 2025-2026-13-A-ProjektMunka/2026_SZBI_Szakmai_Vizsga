@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\szoftverfejleszto_du\\Desktop\\M\u00E1rkus Reg\u0151 Benedek\\d\u00E9lut\u00E1n\\NATOTagallamokKonzol\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FFE5102A-D0C3-4E0C-9466-3FDF9F3EA213}|NATOTagallamokKonzol\\NATOTagallamokKonzol.csproj|c:\\users\\szoftverfejleszto_du\\desktop\\m\u00E1rkus reg\u0151 benedek\\d\u00E9lut\u00E1n\\natotagallamokkonzol\\natotagallamokkonzol\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFE5102A-D0C3-4E0C-9466-3FDF9F3EA213}|NATOTagallamokKonzol\\NATOTagallamokKonzol.csproj|solutionrelative:natotagallamokkonzol\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\szoftverfejleszto_du\\Desktop\\M\u00E1rkus Reg\u0151 Benedek\\d\u00E9lut\u00E1n\\NATOTagallamokKonzol\\NATOTagallamokKonzol\\Program.cs",
+              "RelativeDocumentMoniker": "NATOTagallamokKonzol\\Program.cs",
+              "ToolTip": "C:\\Users\\szoftverfejleszto_du\\Desktop\\M\u00E1rkus Reg\u0151 Benedek\\d\u00E9lut\u00E1n\\NATOTagallamokKonzol\\NATOTagallamokKonzol\\Program.cs",
+              "RelativeToolTip": "NATOTagallamokKonzol\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-27T11:50:55.016Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

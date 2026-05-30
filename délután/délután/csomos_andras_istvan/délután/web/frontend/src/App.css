@@ -1,0 +1,10 @@
+body {
+    background-image: url(../public/images/nato.jpg);
+    background-repeat: no-repeat;
+    margin: auto;
+    background-position: center;
+    background-position-y: 50px;
+    background-size: 50vw 90vh;
+
+}
+

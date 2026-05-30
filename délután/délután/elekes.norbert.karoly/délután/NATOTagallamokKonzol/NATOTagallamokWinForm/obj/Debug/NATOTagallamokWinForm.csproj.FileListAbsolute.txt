@@ -1,0 +1,11 @@
+C:\Users\szoftverfejleszto_du\Desktop\elekes.norbert.karoly\délután\NATOTagallamokKonzol\NATOTagallamokWinForm\bin\Debug\NATOTagallamokWinForm.exe.config
+C:\Users\szoftverfejleszto_du\Desktop\elekes.norbert.karoly\délután\NATOTagallamokKonzol\NATOTagallamokWinForm\bin\Debug\NATOTagallamokWinForm.exe
+C:\Users\szoftverfejleszto_du\Desktop\elekes.norbert.karoly\délután\NATOTagallamokKonzol\NATOTagallamokWinForm\bin\Debug\NATOTagallamokWinForm.pdb
+C:\Users\szoftverfejleszto_du\Desktop\elekes.norbert.karoly\délután\NATOTagallamokKonzol\NATOTagallamokWinForm\obj\Debug\NATOTagallamokWinForm.csproj.AssemblyReference.cache
+C:\Users\szoftverfejleszto_du\Desktop\elekes.norbert.karoly\délután\NATOTagallamokKonzol\NATOTagallamokWinForm\obj\Debug\NATOTagallamokWinForm.Form1.resources
+C:\Users\szoftverfejleszto_du\Desktop\elekes.norbert.karoly\délután\NATOTagallamokKonzol\NATOTagallamokWinForm\obj\Debug\NATOTagallamokWinForm.Properties.Resources.resources
+C:\Users\szoftverfejleszto_du\Desktop\elekes.norbert.karoly\délután\NATOTagallamokKonzol\NATOTagallamokWinForm\obj\Debug\NATOTagallamokWinForm.csproj.GenerateResource.cache
+C:\Users\szoftverfejleszto_du\Desktop\elekes.norbert.karoly\délután\NATOTagallamokKonzol\NATOTagallamokWinForm\obj\Debug\NATOTagallamokWinForm.csproj.CoreCompileInputs.cache
+C:\Users\szoftverfejleszto_du\Desktop\elekes.norbert.karoly\délután\NATOTagallamokKonzol\NATOTagallamokWinForm\obj\Debug\NATOTagallamokWinForm.exe
+C:\Users\szoftverfejleszto_du\Desktop\elekes.norbert.karoly\délután\NATOTagallamokKonzol\NATOTagallamokWinForm\obj\Debug\NATOTagallamokWinForm.pdb
+C:\Users\szoftverfejleszto_du\Desktop\elekes.norbert.karoly\délután\NATOTagallamokKonzol\NATOTagallamokWinForm\obj\Debug\NATOTagallamokWinForm.exe.config

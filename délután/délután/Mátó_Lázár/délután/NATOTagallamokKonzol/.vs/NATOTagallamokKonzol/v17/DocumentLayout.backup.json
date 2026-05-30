@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\szoftverfejleszto_du\\Desktop\\M\u00E1t\u00F3_L\u00E1z\u00E1r\\d\u00E9lut\u00E1n\\NATOTagallamokKonzol\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{34465093-DA42-4642-BECD-39F53371EDD4}|NATOTagallamokWinForm\\NATOTagallamokWinForm.csproj|c:\\users\\szoftverfejleszto_du\\desktop\\m\u00E1t\u00F3_l\u00E1z\u00E1r\\d\u00E9lut\u00E1n\\natotagallamokkonzol\\natotagallamokwinform\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{34465093-DA42-4642-BECD-39F53371EDD4}|NATOTagallamokWinForm\\NATOTagallamokWinForm.csproj|solutionrelative:natotagallamokwinform\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1ECC9EA-E506-4575-A10B-6DE7CF87F576}|NATOTagallamokKonzol\\NATOTagallamokKonzol.csproj|C:\\Users\\szoftverfejleszto_du\\Desktop\\M\u00E1t\u00F3_L\u00E1z\u00E1r\\d\u00E9lut\u00E1n\\NATOTagallamokKonzol\\natotagallamokkonzol\\tagallam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1ECC9EA-E506-4575-A10B-6DE7CF87F576}|NATOTagallamokKonzol\\NATOTagallamokKonzol.csproj|solutionrelative:natotagallamokkonzol\\tagallam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1ECC9EA-E506-4575-A10B-6DE7CF87F576}|NATOTagallamokKonzol\\NATOTagallamokKonzol.csproj|C:\\Users\\szoftverfejleszto_du\\Desktop\\M\u00E1t\u00F3_L\u00E1z\u00E1r\\d\u00E9lut\u00E1n\\NATOTagallamokKonzol\\natotagallamokkonzol\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1ECC9EA-E506-4575-A10B-6DE7CF87F576}|NATOTagallamokKonzol\\NATOTagallamokKonzol.csproj|solutionrelative:natotagallamokkonzol\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|NATOTagallamokKonzol||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1ECC9EA-E506-4575-A10B-6DE7CF87F576}|NATOTagallamokKonzol\\NATOTagallamokKonzol.csproj|c:\\users\\szoftverfejleszto_du\\desktop\\m\u00E1t\u00F3_l\u00E1z\u00E1r\\d\u00E9lut\u00E1n\\natotagallamokkonzol\\natotagallamokkonzol\\||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|6185191f-1008-4fb2-a715-3a4e4f27e610"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 532,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\szoftverfejleszto_du\\Desktop\\M\u00E1t\u00F3_L\u00E1z\u00E1r\\d\u00E9lut\u00E1n\\NATOTagallamokKonzol\\NATOTagallamokWinForm\\Form1.cs",
+              "RelativeDocumentMoniker": "NATOTagallamokWinForm\\Form1.cs",
+              "ToolTip": "C:\\Users\\szoftverfejleszto_du\\Desktop\\M\u00E1t\u00F3_L\u00E1z\u00E1r\\d\u00E9lut\u00E1n\\NATOTagallamokKonzol\\NATOTagallamokWinForm\\Form1.cs [Design]",
+              "RelativeToolTip": "NATOTagallamokWinForm\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-27T11:59:21.654Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "NATOTagallamokKonzol",
+              "DocumentMoniker": "C:\\Users\\szoftverfejleszto_du\\Desktop\\M\u00E1t\u00F3_L\u00E1z\u00E1r\\d\u00E9lut\u00E1n\\NATOTagallamokKonzol\\NATOTagallamokKonzol\\NATOTagallamokKonzol.csproj",
+              "RelativeDocumentMoniker": "NATOTagallamokKonzol\\NATOTagallamokKonzol.csproj",
+              "ToolTip": "C:\\Users\\szoftverfejleszto_du\\Desktop\\M\u00E1t\u00F3_L\u00E1z\u00E1r\\d\u00E9lut\u00E1n\\NATOTagallamokKonzol\\NATOTagallamokKonzol\\NATOTagallamokKonzol.csproj",
+              "RelativeToolTip": "NATOTagallamokKonzol\\NATOTagallamokKonzol.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-05-27T11:25:45.931Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Tagallam.cs",
+              "DocumentMoniker": "C:\\Users\\szoftverfejleszto_du\\Desktop\\M\u00E1t\u00F3_L\u00E1z\u00E1r\\d\u00E9lut\u00E1n\\NATOTagallamokKonzol\\NATOTagallamokKonzol\\Tagallam.cs",
+              "RelativeDocumentMoniker": "NATOTagallamokKonzol\\Tagallam.cs",
+              "ToolTip": "C:\\Users\\szoftverfejleszto_du\\Desktop\\M\u00E1t\u00F3_L\u00E1z\u00E1r\\d\u00E9lut\u00E1n\\NATOTagallamokKonzol\\NATOTagallamokKonzol\\Tagallam.cs",
+              "RelativeToolTip": "NATOTagallamokKonzol\\Tagallam.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAxwDAAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-27T10:27:51.437Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\szoftverfejleszto_du\\Desktop\\M\u00E1t\u00F3_L\u00E1z\u00E1r\\d\u00E9lut\u00E1n\\NATOTagallamokKonzol\\NATOTagallamokKonzol\\Program.cs",
+              "RelativeDocumentMoniker": "NATOTagallamokKonzol\\Program.cs",
+              "ToolTip": "C:\\Users\\szoftverfejleszto_du\\Desktop\\M\u00E1t\u00F3_L\u00E1z\u00E1r\\d\u00E9lut\u00E1n\\NATOTagallamokKonzol\\NATOTagallamokKonzol\\Program.cs",
+              "RelativeToolTip": "NATOTagallamokKonzol\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-27T10:26:56.577Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+C:\Users\szoftverfejleszto_du\Desktop\Sebők.dominik\délután\NATOTagallamokKonzol\NATOTagallamokKonzol\obj\Debug\NATOTagallamokKonzol.csproj.AssemblyReference.cache
+C:\Users\szoftverfejleszto_du\Desktop\Sebők.dominik\délután\NATOTagallamokKonzol\NATOTagallamokKonzol\obj\Debug\NATOTagallamokKonzol.csproj.CoreCompileInputs.cache
+C:\Users\szoftverfejleszto_du\Desktop\Sebők.dominik\délután\NATOTagallamokKonzol\NATOTagallamokKonzol\obj\Debug\NATOTagallamokKonzol.NATOTagallamokWinForm.resources
+C:\Users\szoftverfejleszto_du\Desktop\Sebők.dominik\délután\NATOTagallamokKonzol\NATOTagallamokKonzol\obj\Debug\NATOTagallamokKonzol.csproj.GenerateResource.cache

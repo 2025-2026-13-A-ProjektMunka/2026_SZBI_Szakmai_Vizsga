@@ -1,0 +1,8 @@
+C:\Users\szoftverfejleszto_du\Desktop\csomos_andras_istvan\délután\NATOTagallamokKonzol\NATOTagallamokKonzol\bin\Debug\NATOTagallamokKonzol.exe.config
+C:\Users\szoftverfejleszto_du\Desktop\csomos_andras_istvan\délután\NATOTagallamokKonzol\NATOTagallamokKonzol\bin\Debug\NATOTagallamokKonzol.exe
+C:\Users\szoftverfejleszto_du\Desktop\csomos_andras_istvan\délután\NATOTagallamokKonzol\NATOTagallamokKonzol\bin\Debug\NATOTagallamokKonzol.pdb
+C:\Users\szoftverfejleszto_du\Desktop\csomos_andras_istvan\délután\NATOTagallamokKonzol\NATOTagallamokKonzol\obj\Debug\NATOTagallamokKonzol.csproj.AssemblyReference.cache
+C:\Users\szoftverfejleszto_du\Desktop\csomos_andras_istvan\délután\NATOTagallamokKonzol\NATOTagallamokKonzol\obj\Debug\NATOTagallamokKonzol.csproj.CoreCompileInputs.cache
+C:\Users\szoftverfejleszto_du\Desktop\csomos_andras_istvan\délután\NATOTagallamokKonzol\NATOTagallamokKonzol\obj\Debug\NATOTagallamokKonzol.exe
+C:\Users\szoftverfejleszto_du\Desktop\csomos_andras_istvan\délután\NATOTagallamokKonzol\NATOTagallamokKonzol\obj\Debug\NATOTagallamokKonzol.pdb
+C:\Users\szoftverfejleszto_du\Desktop\csomos_andras_istvan\délután\NATOTagallamokKonzol\NATOTagallamokKonzol\obj\Debug\NATOTagallamokKonzol.exe.config

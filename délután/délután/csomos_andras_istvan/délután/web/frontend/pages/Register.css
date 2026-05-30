@@ -1,0 +1,46 @@
+.register-kontener {
+    text-align: center;
+    padding-top: 290px;
+    margin-top: 20px;
+}
+
+#name {
+    font-size: 30px;
+
+    color: rgb(108, 80, 233);
+    padding-top: 200px;
+}
+
+#reg-name {
+    height: 30px;
+    width: 250px;
+}
+#email {
+    font-size: 30px;
+    margin-top: 10px;
+    color: rgb(108, 80, 233);
+    padding-top: 200px;
+}
+
+#reg-email {
+    height: 30px;
+    width: 250px;
+}
+#password {
+    font-size: 30px;
+    margin-top: 10px;
+    color: rgb(108, 80, 233);
+    padding-top: 200px;
+}
+
+#reg-password {
+    height: 30px;
+    width: 250px;
+}
+
+#reg-gomb {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: rgb(108, 80, 233);
+    color: white;
+}

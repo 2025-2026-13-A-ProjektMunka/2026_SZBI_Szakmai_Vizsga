@@ -1,0 +1,27 @@
+body {
+    background-image: url('../public/images/nato.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+h1 {
+    color: blue;
+    text-shadow: 4px 3px 4px black;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 900;
+}
+
+.home-kontener {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 900px;
+}
+
+@media screen and (min-width: 480px) and (max-width: 768px) {
+    h1 {
+        font-size: 40px;
+    }
+}

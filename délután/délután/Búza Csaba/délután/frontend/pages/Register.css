@@ -1,0 +1,11 @@
+div{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+button{
+    padding: 10px;
+    color: black;
+    background-color: blue;
+}

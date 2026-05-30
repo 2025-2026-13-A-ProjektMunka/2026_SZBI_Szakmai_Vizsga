@@ -1,0 +1,4 @@
+C:\Users\szoftverfejleszto\Desktop\Kocsis Márkó\EUTagorszagokKonzol\EUTagorszagokKonzol\obj\Debug\EUTagorszagokKonzol.csproj.AssemblyReference.cache
+C:\Users\szoftverfejleszto\Desktop\Kocsis Márkó\EUTagorszagokKonzol\EUTagorszagokKonzol\obj\Debug\EUTagorszagokKonzol.csproj.CoreCompileInputs.cache
+F:\2026_SZBI_Szakmai_Vizsga\délelőtt\délelőtt\Kocsis Márkó\EUTagorszagokKonzol\EUTagorszagokKonzol\obj\Debug\EUTagorszagokKonzol.csproj.AssemblyReference.cache
+F:\2026_SZBI_Szakmai_Vizsga\délelőtt\délelőtt\Kocsis Márkó\EUTagorszagokKonzol\EUTagorszagokKonzol\obj\Debug\EUTagorszagokKonzol.csproj.CoreCompileInputs.cache

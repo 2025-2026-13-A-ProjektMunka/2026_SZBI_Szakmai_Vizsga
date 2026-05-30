@@ -1,0 +1,10 @@
+C:\Users\szoftverfejleszto\source\repos\EUTagorszagokKonzol\EUTagorszagokKonzol\bin\Debug\EUTagorszagokKonzol.exe.config
+C:\Users\szoftverfejleszto\source\repos\EUTagorszagokKonzol\EUTagorszagokKonzol\bin\Debug\EUTagorszagokKonzol.exe
+C:\Users\szoftverfejleszto\source\repos\EUTagorszagokKonzol\EUTagorszagokKonzol\bin\Debug\EUTagorszagokKonzol.pdb
+C:\Users\szoftverfejleszto\source\repos\EUTagorszagokKonzol\EUTagorszagokKonzol\obj\Debug\EUTagorszagokKonzol.csproj.AssemblyReference.cache
+C:\Users\szoftverfejleszto\source\repos\EUTagorszagokKonzol\EUTagorszagokKonzol\obj\Debug\EUTagorszagokKonzol.Form1.resources
+C:\Users\szoftverfejleszto\source\repos\EUTagorszagokKonzol\EUTagorszagokKonzol\obj\Debug\EUTagorszagokKonzol.Properties.Resources.resources
+C:\Users\szoftverfejleszto\source\repos\EUTagorszagokKonzol\EUTagorszagokKonzol\obj\Debug\EUTagorszagokKonzol.csproj.GenerateResource.cache
+C:\Users\szoftverfejleszto\source\repos\EUTagorszagokKonzol\EUTagorszagokKonzol\obj\Debug\EUTagorszagokKonzol.csproj.CoreCompileInputs.cache
+C:\Users\szoftverfejleszto\source\repos\EUTagorszagokKonzol\EUTagorszagokKonzol\obj\Debug\EUTagorszagokKonzol.exe
+C:\Users\szoftverfejleszto\source\repos\EUTagorszagokKonzol\EUTagorszagokKonzol\obj\Debug\EUTagorszagokKonzol.pdb

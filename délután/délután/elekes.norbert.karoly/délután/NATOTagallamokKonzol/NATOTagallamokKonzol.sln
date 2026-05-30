@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.37314.3 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NATOTagallamokKonzol", "NATOTagallamokKonzol\NATOTagallamokKonzol.csproj", "{F0BDB1FD-3D86-468E-9140-10CF1D4402A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NATOTagallamokWinForm", "NATOTagallamokWinForm\NATOTagallamokWinForm.csproj", "{CD97B800-2B92-4F48-8FA4-CC0A2DDCF186}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F0BDB1FD-3D86-468E-9140-10CF1D4402A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0BDB1FD-3D86-468E-9140-10CF1D4402A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0BDB1FD-3D86-468E-9140-10CF1D4402A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0BDB1FD-3D86-468E-9140-10CF1D4402A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD97B800-2B92-4F48-8FA4-CC0A2DDCF186}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD97B800-2B92-4F48-8FA4-CC0A2DDCF186}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD97B800-2B92-4F48-8FA4-CC0A2DDCF186}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD97B800-2B92-4F48-8FA4-CC0A2DDCF186}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D00F5214-5CA4-4E58-965C-E46372F5F644}
+	EndGlobalSection
+EndGlobal

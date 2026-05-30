@@ -1,0 +1,87 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\szoftverfejleszto_du\\Desktop\\elekes.norbert.karoly\\d\u00E9lut\u00E1n\\NATOTagallamokKonzol\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F0BDB1FD-3D86-468E-9140-10CF1D4402A6}|NATOTagallamokKonzol\\NATOTagallamokKonzol.csproj|c:\\users\\szoftverfejleszto_du\\desktop\\elekes.norbert.karoly\\d\u00E9lut\u00E1n\\natotagallamokkonzol\\natotagallamokkonzol\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0BDB1FD-3D86-468E-9140-10CF1D4402A6}|NATOTagallamokKonzol\\NATOTagallamokKonzol.csproj|solutionrelative:natotagallamokkonzol\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0BDB1FD-3D86-468E-9140-10CF1D4402A6}|NATOTagallamokKonzol\\NATOTagallamokKonzol.csproj|c:\\users\\szoftverfejleszto_du\\desktop\\elekes.norbert.karoly\\d\u00E9lut\u00E1n\\natotagallamokkonzol\\natotagallamokkonzol\\tagallam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0BDB1FD-3D86-468E-9140-10CF1D4402A6}|NATOTagallamokKonzol\\NATOTagallamokKonzol.csproj|solutionrelative:natotagallamokkonzol\\tagallam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD97B800-2B92-4F48-8FA4-CC0A2DDCF186}|NATOTagallamokWinForm\\NATOTagallamokWinForm.csproj|c:\\users\\szoftverfejleszto_du\\desktop\\elekes.norbert.karoly\\d\u00E9lut\u00E1n\\natotagallamokkonzol\\natotagallamokwinform\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD97B800-2B92-4F48-8FA4-CC0A2DDCF186}|NATOTagallamokWinForm\\NATOTagallamokWinForm.csproj|solutionrelative:natotagallamokwinform\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD97B800-2B92-4F48-8FA4-CC0A2DDCF186}|NATOTagallamokWinForm\\NATOTagallamokWinForm.csproj|c:\\users\\szoftverfejleszto_du\\desktop\\elekes.norbert.karoly\\d\u00E9lut\u00E1n\\natotagallamokkonzol\\natotagallamokwinform\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CD97B800-2B92-4F48-8FA4-CC0A2DDCF186}|NATOTagallamokWinForm\\NATOTagallamokWinForm.csproj|solutionrelative:natotagallamokwinform\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 185,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\szoftverfejleszto_du\\Desktop\\elekes.norbert.karoly\\d\u00E9lut\u00E1n\\NATOTagallamokKonzol\\NATOTagallamokWinForm\\Form1.cs",
+              "RelativeDocumentMoniker": "NATOTagallamokWinForm\\Form1.cs",
+              "ToolTip": "C:\\Users\\szoftverfejleszto_du\\Desktop\\elekes.norbert.karoly\\d\u00E9lut\u00E1n\\NATOTagallamokKonzol\\NATOTagallamokWinForm\\Form1.cs",
+              "RelativeToolTip": "NATOTagallamokWinForm\\Form1.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAuwBMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-27T13:00:55.573Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\szoftverfejleszto_du\\Desktop\\elekes.norbert.karoly\\d\u00E9lut\u00E1n\\NATOTagallamokKonzol\\NATOTagallamokWinForm\\Form1.cs",
+              "RelativeDocumentMoniker": "NATOTagallamokWinForm\\Form1.cs",
+              "ToolTip": "C:\\Users\\szoftverfejleszto_du\\Desktop\\elekes.norbert.karoly\\d\u00E9lut\u00E1n\\NATOTagallamokKonzol\\NATOTagallamokWinForm\\Form1.cs [Design]",
+              "RelativeToolTip": "NATOTagallamokWinForm\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-27T12:47:26.869Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Tagallam.cs",
+              "DocumentMoniker": "C:\\Users\\szoftverfejleszto_du\\Desktop\\elekes.norbert.karoly\\d\u00E9lut\u00E1n\\NATOTagallamokKonzol\\NATOTagallamokKonzol\\Tagallam.cs",
+              "RelativeDocumentMoniker": "NATOTagallamokKonzol\\Tagallam.cs",
+              "ToolTip": "C:\\Users\\szoftverfejleszto_du\\Desktop\\elekes.norbert.karoly\\d\u00E9lut\u00E1n\\NATOTagallamokKonzol\\NATOTagallamokKonzol\\Tagallam.cs",
+              "RelativeToolTip": "NATOTagallamokKonzol\\Tagallam.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABsAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-27T10:27:35.243Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\szoftverfejleszto_du\\Desktop\\elekes.norbert.karoly\\d\u00E9lut\u00E1n\\NATOTagallamokKonzol\\NATOTagallamokKonzol\\Program.cs",
+              "RelativeDocumentMoniker": "NATOTagallamokKonzol\\Program.cs",
+              "ToolTip": "C:\\Users\\szoftverfejleszto_du\\Desktop\\elekes.norbert.karoly\\d\u00E9lut\u00E1n\\NATOTagallamokKonzol\\NATOTagallamokKonzol\\Program.cs",
+              "RelativeToolTip": "NATOTagallamokKonzol\\Program.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAA9wCUAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-27T10:26:12.614Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

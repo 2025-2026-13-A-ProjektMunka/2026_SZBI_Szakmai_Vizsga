@@ -1,0 +1,14 @@
+nav {
+    background: #3900f2;
+    background: linear-gradient(90deg, rgba(57, 0, 242, 1) 0%, rgba(204, 204, 204, 1) 49%, rgba(255, 234, 43, 1) 100%);
+    position:sticky;
+}
+
+nav a {
+    display: inline-block;
+    padding: 10px;
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}

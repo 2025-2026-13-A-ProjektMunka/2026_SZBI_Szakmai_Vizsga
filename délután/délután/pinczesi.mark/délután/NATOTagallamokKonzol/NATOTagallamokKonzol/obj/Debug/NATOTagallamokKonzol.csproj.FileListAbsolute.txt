@@ -1,0 +1,2 @@
+C:\Users\szoftverfejleszto_du\source\repos\NATOTagallamokKonzol\NATOTagallamokKonzol\obj\Debug\NATOTagallamokKonzol.csproj.AssemblyReference.cache
+C:\Users\szoftverfejleszto_du\source\repos\NATOTagallamokKonzol\NATOTagallamokKonzol\obj\Debug\NATOTagallamokKonzol.csproj.CoreCompileInputs.cache

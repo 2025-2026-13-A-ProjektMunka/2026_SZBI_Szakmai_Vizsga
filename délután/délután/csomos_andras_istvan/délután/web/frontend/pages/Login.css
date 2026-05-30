@@ -1,0 +1,35 @@
+.login-kontener {
+    text-align: center;
+    padding-top: 290px;
+    margin-top: 20px;
+}
+
+#-logemail {
+    font-size: 30px;
+
+    color: rgb(108, 80, 233);
+    padding-top: 200px;
+}
+
+#log-email {
+    height: 30px;
+    width: 250px;
+}
+#logpassword {
+    font-size: 30px;
+
+    color: rgb(108, 80, 233);
+    padding-top: 200px;
+}
+
+#log-password {
+    height: 30px;
+    width: 250px;
+}
+
+#log-gomb {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: rgb(108, 80, 233);
+    color: white;
+}

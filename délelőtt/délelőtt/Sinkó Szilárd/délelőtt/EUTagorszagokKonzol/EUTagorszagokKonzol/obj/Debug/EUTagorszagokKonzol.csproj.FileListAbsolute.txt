@@ -1,0 +1,8 @@
+C:\Users\szoftverfejleszto\Desktop\Sinkó Szilárd\délelőtt\Asztali_Kepek\EUTagorszagokKonzol\EUTagorszagokKonzol\bin\Debug\EUTagorszagokKonzol.exe.config
+C:\Users\szoftverfejleszto\Desktop\Sinkó Szilárd\délelőtt\Asztali_Kepek\EUTagorszagokKonzol\EUTagorszagokKonzol\bin\Debug\EUTagorszagokKonzol.exe
+C:\Users\szoftverfejleszto\Desktop\Sinkó Szilárd\délelőtt\Asztali_Kepek\EUTagorszagokKonzol\EUTagorszagokKonzol\bin\Debug\EUTagorszagokKonzol.pdb
+C:\Users\szoftverfejleszto\Desktop\Sinkó Szilárd\délelőtt\Asztali_Kepek\EUTagorszagokKonzol\EUTagorszagokKonzol\obj\Debug\EUTagorszagokKonzol.csproj.AssemblyReference.cache
+C:\Users\szoftverfejleszto\Desktop\Sinkó Szilárd\délelőtt\Asztali_Kepek\EUTagorszagokKonzol\EUTagorszagokKonzol\obj\Debug\EUTagorszagokKonzol.csproj.CoreCompileInputs.cache
+C:\Users\szoftverfejleszto\Desktop\Sinkó Szilárd\délelőtt\Asztali_Kepek\EUTagorszagokKonzol\EUTagorszagokKonzol\obj\Debug\EUTagorszagokKonzol.exe
+C:\Users\szoftverfejleszto\Desktop\Sinkó Szilárd\délelőtt\Asztali_Kepek\EUTagorszagokKonzol\EUTagorszagokKonzol\obj\Debug\EUTagorszagokKonzol.pdb
+C:\Users\szoftverfejleszto\Desktop\Sinkó Szilárd\délelőtt\Asztali_Kepek\EUTagorszagokKonzol\EUTagorszagokKonzol\obj\Debug\EUTagorszagokKonzol.exe.config

@@ -1,0 +1,84 @@
+.tagallamok-kontener  h1 {
+        color: rgb(108, 80, 233);
+            text-shadow: 3px 2px  black;
+            font-size: 60px;
+            font-weight: bold;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            margin-left: 50px;
+}
+
+.grid-kontener {
+    color: green;
+    text-shadow: 3px 2px  white;
+    font-weight: bold;
+  display: grid;
+  grid-template-columns: 440px 440px 440px 440px;
+  height: 400px;
+  grid-gap: 20px;
+  padding: 10px;
+  margin: 40px;
+}
+
+.grid-kontener > div{
+  background-color: rgb(195, 0, 255, 0.7);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 40px 70px;
+  width: 440px;
+  
+}
+
+.elso {
+  grid-row: 1 / 4;
+  width: 440px;
+
+}
+.elso img {
+  grid-row: 1 / 4;
+  width: 230px;
+  height: 300px;
+  margin-left: 150px;
+
+}
+
+
+.masodik {
+  grid-row: 1 / 4;
+  width: 440px;
+
+}
+
+.masodik img {
+  grid-row: 1 / 4;
+  width: 230px;
+  height: 300px;
+  margin-left: 150px;
+
+}
+
+.harmadik {
+  grid-row: 1 / 4;
+  width: 440px;
+
+}
+
+.harmadik img {
+  grid-row: 1 / 4;
+  width: 230px;
+  height: 300px;
+  margin-left: 150px;
+
+}
+.negyedik {
+  grid-row: 1 / 4;
+  width: 440px;
+
+}
+
+.negyedik img {
+  grid-row: 1 / 4;
+  width: 230px;
+  height: 300px;
+  margin-left: 150px;
+
+}

@@ -1,0 +1,640 @@
+[{
+  "_id": {
+    "$oid": "6a096f578e096aa0d7827326"
+  },
+  "nev": "Albánia",
+  "terulet": 28748,
+  "lakossag": 2793000,
+  "fovaros": "Tirana",
+  "fovarosLakossag": 557000,
+  "csatlakozas": 1009,
+  "haderoNagysaga": 8000,
+  "zaszlo": "https://upload.wikimedia.org/wikipedia/commons/3/36/Flag_of_Albania.svg",
+  "createdAt": {
+    "$date": "2026-05-17T07:33:43.439Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-17T07:33:43.439Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a096f578e096aa0d7827328"
+  },
+  "nev": "Belgium",
+  "terulet": 30528,
+  "lakossag": 11780000,
+  "fovaros": "Brüsszel",
+  "fovarosLakossag": 1200000,
+  "csatlakozas": 1949,
+  "haderoNagysaga": 25000,
+  "zaszlo": "https://upload.wikimedia.org/wikipedia/commons/6/65/Flag_of_Belgium.svg",
+  "createdAt": {
+    "$date": "2026-05-17T07:33:43.468Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-17T07:33:43.468Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a096f578e096aa0d782732a"
+  },
+  "nev": "Bulgária",
+  "terulet": 110994,
+  "lakossag": 6448000,
+  "fovaros": "Szófia",
+  "fovarosLakossag": 1280000,
+  "csatlakozas": 2004,
+  "haderoNagysaga": 37000,
+  "zaszlo": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Flag_of_Bulgaria.svg",
+  "createdAt": {
+    "$date": "2026-05-17T07:33:43.494Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-17T07:33:43.494Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a096f578e096aa0d782732c"
+  },
+  "nev": "Kanada",
+  "terulet": 9984670,
+  "lakossag": 40100000,
+  "fovaros": "Ottawa",
+  "fovarosLakossag": 1017000,
+  "csatlakozas": 1949,
+  "haderoNagysaga": 68000,
+  "zaszlo": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Flag_of_Canada.svg",
+  "createdAt": {
+    "$date": "2026-05-17T07:33:43.518Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-17T07:33:43.518Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a096f578e096aa0d782732e"
+  },
+  "nev": "Horvátország",
+  "terulet": 56594,
+  "lakossag": 3850000,
+  "fovaros": "Zágráb",
+  "fovarosLakossag": 770000,
+  "csatlakozas": 2009,
+  "haderoNagysaga": 15000,
+  "zaszlo": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Flag_of_Croatia.svg",
+  "createdAt": {
+    "$date": "2026-05-17T07:33:43.543Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-17T07:33:43.543Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a096f578e096aa0d7827330"
+  },
+  "nev": "Csehország",
+  "terulet": 78866,
+  "lakossag": 10900000,
+  "fovaros": "Prága",
+  "fovarosLakossag": 1380000,
+  "csatlakozas": 1999,
+  "haderoNagysaga": 28000,
+  "zaszlo": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Flag_of_the_Czech_Republic.svg",
+  "createdAt": {
+    "$date": "2026-05-17T07:33:43.572Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-17T07:33:43.572Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a096f578e096aa0d7827332"
+  },
+  "nev": "Dánia",
+  "terulet": 43094,
+  "lakossag": 5960000,
+  "fovaros": "Koppenhága",
+  "fovarosLakossag": 810000,
+  "csatlakozas": 1949,
+  "haderoNagysaga": 17000,
+  "zaszlo": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Flag_of_Denmark.svg",
+  "createdAt": {
+    "$date": "2026-05-17T07:33:43.605Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-17T07:33:43.605Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a096f578e096aa0d7827334"
+  },
+  "nev": "Észtország",
+  "terulet": 45227,
+  "lakossag": 1370000,
+  "fovaros": "Tallinn",
+  "fovarosLakossag": 454000,
+  "csatlakozas": 2004,
+  "haderoNagysaga": 7700,
+  "zaszlo": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Flag_of_Estonia.svg",
+  "createdAt": {
+    "$date": "2026-05-17T07:33:43.638Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-17T07:33:43.638Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a096f578e096aa0d7827336"
+  },
+  "nev": "Finnország",
+  "terulet": 338455,
+  "lakossag": 5560000,
+  "fovaros": "Helsinki",
+  "fovarosLakossag": 664000,
+  "csatlakozas": 2023,
+  "haderoNagysaga": 24000,
+  "zaszlo": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Flag_of_Finland.svg",
+  "createdAt": {
+    "$date": "2026-05-17T07:33:43.668Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-17T07:33:43.668Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a096f578e096aa0d7827338"
+  },
+  "nev": "Franciaország",
+  "terulet": 551695,
+  "lakossag": 68000000,
+  "fovaros": "Párizs",
+  "fovarosLakossag": 2100000,
+  "csatlakozas": 1949,
+  "haderoNagysaga": 205000,
+  "zaszlo": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Flag_of_France.svg",
+  "createdAt": {
+    "$date": "2026-05-17T07:33:43.698Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-17T07:33:43.698Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a096f578e096aa0d782733a"
+  },
+  "nev": "Németország",
+  "terulet": 357588,
+  "lakossag": 84500000,
+  "fovaros": "Berlin",
+  "fovarosLakossag": 3850000,
+  "csatlakozas": 1955,
+  "haderoNagysaga": 183000,
+  "zaszlo": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Flag_of_Germany.svg",
+  "createdAt": {
+    "$date": "2026-05-17T07:33:43.727Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-17T07:33:43.727Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a096f578e096aa0d782733c"
+  },
+  "nev": "Görögország",
+  "terulet": 131957,
+  "lakossag": 10400000,
+  "fovaros": "Athén",
+  "fovarosLakossag": 3150000,
+  "csatlakozas": 1952,
+  "haderoNagysaga": 143000,
+  "zaszlo": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Flag_of_Greece.svg",
+  "createdAt": {
+    "$date": "2026-05-17T07:33:43.753Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-17T07:33:43.753Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a096f578e096aa0d782733e"
+  },
+  "nev": "Magyarország",
+  "terulet": 93030,
+  "lakossag": 9590000,
+  "fovaros": "Budapest",
+  "fovarosLakossag": 1680000,
+  "csatlakozas": 1999,
+  "haderoNagysaga": 37000,
+  "zaszlo": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Flag_of_Hungary.svg",
+  "createdAt": {
+    "$date": "2026-05-17T07:33:43.777Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-17T07:33:43.777Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a096f578e096aa0d7827340"
+  },
+  "nev": "Izland",
+  "terulet": 103000,
+  "lakossag": 393000,
+  "fovaros": "Reykjavík",
+  "fovarosLakossag": 140000,
+  "csatlakozas": 1949,
+  "haderoNagysaga": 0,
+  "zaszlo": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Flag_of_Iceland.svg",
+  "createdAt": {
+    "$date": "2026-05-17T07:33:43.803Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-17T07:33:43.803Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a096f578e096aa0d7827342"
+  },
+  "nev": "Olaszország",
+  "terulet": 301340,
+  "lakossag": 58900000,
+  "fovaros": "Róma",
+  "fovarosLakossag": 4300000,
+  "csatlakozas": 1949,
+  "haderoNagysaga": 165000,
+  "zaszlo": "https://upload.wikimedia.org/wikipedia/commons/0/03/Flag_of_Italy.svg",
+  "createdAt": {
+    "$date": "2026-05-17T07:33:43.828Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-17T07:33:43.828Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a096f578e096aa0d7827344"
+  },
+  "nev": "Lettország",
+  "terulet": 64589,
+  "lakossag": 1880000,
+  "fovaros": "Riga",
+  "fovarosLakossag": 605000,
+  "csatlakozas": 2004,
+  "haderoNagysaga": 6600,
+  "zaszlo": "https://upload.wikimedia.org/wikipedia/commons/8/84/Flag_of_Latvia.svg",
+  "createdAt": {
+    "$date": "2026-05-17T07:33:43.855Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-17T07:33:43.855Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a096f578e096aa0d7827346"
+  },
+  "nev": "Litvánia",
+  "terulet": 65300,
+  "lakossag": 2890000,
+  "fovaros": "Vilnius",
+  "fovarosLakossag": 592000,
+  "csatlakozas": 2004,
+  "haderoNagysaga": 23000,
+  "zaszlo": "https://upload.wikimedia.org/wikipedia/commons/1/11/Flag_of_Lithuania.svg",
+  "createdAt": {
+    "$date": "2026-05-17T07:33:43.879Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-17T07:33:43.879Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a096f578e096aa0d7827348"
+  },
+  "nev": "Luxemburg",
+  "terulet": 2586,
+  "lakossag": 672000,
+  "fovaros": "Luxemburg",
+  "fovarosLakossag": 132000,
+  "csatlakozas": 1949,
+  "haderoNagysaga": 1000,
+  "zaszlo": "https://upload.wikimedia.org/wikipedia/commons/d/da/Flag_of_Luxembourg.svg",
+  "createdAt": {
+    "$date": "2026-05-17T07:33:43.905Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-17T07:33:43.905Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a096f578e096aa0d782734a"
+  },
+  "nev": "Montenegró",
+  "terulet": 13812,
+  "lakossag": 617000,
+  "fovaros": "Podgorica",
+  "fovarosLakossag": 190000,
+  "csatlakozas": 2017,
+  "haderoNagysaga": 2400,
+  "zaszlo": "https://upload.wikimedia.org/wikipedia/commons/6/64/Flag_of_Montenegro.svg",
+  "createdAt": {
+    "$date": "2026-05-17T07:33:43.929Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-17T07:33:43.929Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a096f578e096aa0d782734c"
+  },
+  "nev": "Hollandia",
+  "terulet": 41543,
+  "lakossag": 17900000,
+  "fovaros": "Amszterdam",
+  "fovarosLakossag": 920000,
+  "csatlakozas": 1949,
+  "haderoNagysaga": 41000,
+  "zaszlo": "https://upload.wikimedia.org/wikipedia/commons/2/20/Flag_of_the_Netherlands.svg",
+  "createdAt": {
+    "$date": "2026-05-17T07:33:43.956Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-17T07:33:43.956Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a096f578e096aa0d782734e"
+  },
+  "nev": "Észak-Macedónia",
+  "terulet": 25713,
+  "lakossag": 1830000,
+  "fovaros": "Szkopje",
+  "fovarosLakossag": 526000,
+  "csatlakozas": 2020,
+  "haderoNagysaga": 8000,
+  "zaszlo": "https://upload.wikimedia.org/wikipedia/commons/7/79/Flag_of_North_Macedonia.svg",
+  "createdAt": {
+    "$date": "2026-05-17T07:33:43.984Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-17T07:33:43.984Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a096f588e096aa0d7827350"
+  },
+  "nev": "Norvégia",
+  "terulet": 385207,
+  "lakossag": 5550000,
+  "fovaros": "Oslo",
+  "fovarosLakossag": 710000,
+  "csatlakozas": 1949,
+  "haderoNagysaga": 23000,
+  "zaszlo": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Flag_of_Norway.svg",
+  "createdAt": {
+    "$date": "2026-05-17T07:33:44.010Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-17T07:33:44.010Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a096f588e096aa0d7827352"
+  },
+  "nev": "Lengyelország",
+  "terulet": 312696,
+  "lakossag": 37800000,
+  "fovaros": "Varsó",
+  "fovarosLakossag": 1860000,
+  "csatlakozas": 1999,
+  "haderoNagysaga": 216000,
+  "zaszlo": "https://upload.wikimedia.org/wikipedia/commons/1/12/Flag_of_Poland.svg",
+  "createdAt": {
+    "$date": "2026-05-17T07:33:44.038Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-17T07:33:44.038Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a096f588e096aa0d7827354"
+  },
+  "nev": "Portugália",
+  "terulet": 92212,
+  "lakossag": 10300000,
+  "fovaros": "Lisszabon",
+  "fovarosLakossag": 545000,
+  "csatlakozas": 1949,
+  "haderoNagysaga": 27000,
+  "zaszlo": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Flag_of_Portugal.svg",
+  "createdAt": {
+    "$date": "2026-05-17T07:33:44.063Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-17T07:33:44.063Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a096f588e096aa0d7827356"
+  },
+  "nev": "Románia",
+  "terulet": 238397,
+  "lakossag": 19000000,
+  "fovaros": "Bukarest",
+  "fovarosLakossag": 1710000,
+  "csatlakozas": 2004,
+  "haderoNagysaga": 81000,
+  "zaszlo": "https://upload.wikimedia.org/wikipedia/commons/7/73/Flag_of_Romania.svg",
+  "createdAt": {
+    "$date": "2026-05-17T07:33:44.091Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-17T07:33:44.091Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a096f588e096aa0d7827358"
+  },
+  "nev": "Szlovákia",
+  "terulet": 49035,
+  "lakossag": 5430000,
+  "fovaros": "Pozsony",
+  "fovarosLakossag": 475000,
+  "csatlakozas": 2004,
+  "haderoNagysaga": 18000,
+  "zaszlo": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Flag_of_Slovakia.svg",
+  "createdAt": {
+    "$date": "2026-05-17T07:33:44.120Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-17T07:33:44.120Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a096f588e096aa0d782735a"
+  },
+  "nev": "Szlovénia",
+  "terulet": 20273,
+  "lakossag": 2120000,
+  "fovaros": "Ljubljana",
+  "fovarosLakossag": 295000,
+  "csatlakozas": 2004,
+  "haderoNagysaga": 7300,
+  "zaszlo": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Flag_of_Slovenia.svg",
+  "createdAt": {
+    "$date": "2026-05-17T07:33:44.145Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-17T07:33:44.145Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a096f588e096aa0d782735c"
+  },
+  "nev": "Spanyolország",
+  "terulet": 505990,
+  "lakossag": 48500000,
+  "fovaros": "Madrid",
+  "fovarosLakossag": 3300000,
+  "csatlakozas": 1982,
+  "haderoNagysaga": 133000,
+  "zaszlo": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Flag_of_Spain.svg",
+  "createdAt": {
+    "$date": "2026-05-17T07:33:44.171Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-17T07:33:44.171Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a096f588e096aa0d782735e"
+  },
+  "nev": "Svédország",
+  "terulet": 450295,
+  "lakossag": 10500000,
+  "fovaros": "Stockholm",
+  "fovarosLakossag": 980000,
+  "csatlakozas": 2024,
+  "haderoNagysaga": 24000,
+  "zaszlo": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Flag_of_Sweden.svg",
+  "createdAt": {
+    "$date": "2026-05-17T07:33:44.195Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-17T07:33:44.195Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a096f588e096aa0d7827360"
+  },
+  "nev": "Törökország",
+  "terulet": 783356,
+  "lakossag": 85300000,
+  "fovaros": "Ankara",
+  "fovarosLakossag": 5700000,
+  "csatlakozas": 1952,
+  "haderoNagysaga": 425000,
+  "zaszlo": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Flag_of_Turkey.svg",
+  "createdAt": {
+    "$date": "2026-05-17T07:33:44.218Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-17T07:33:44.218Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a096f588e096aa0d7827362"
+  },
+  "nev": "Egyesült Királyság",
+  "terulet": 243610,
+  "lakossag": 69100000,
+  "fovaros": "London",
+  "fovarosLakossag": 9000000,
+  "csatlakozas": 1949,
+  "haderoNagysaga": 184000,
+  "zaszlo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Flag_of_the_United_Kingdom_%283-5%29.svg/1920px-Flag_of_the_United_Kingdom_%283-5%29.svg.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+  "createdAt": {
+    "$date": "2026-05-17T07:33:44.242Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-17T07:33:44.242Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a097233e225c23debc575f6"
+  },
+  "nev": "Non Existing State",
+  "terulet": 0,
+  "lakossag": 0,
+  "fovaros": "Nowhere",
+  "fovarosLakossag": 0,
+  "csatlakozas": 0,
+  "haderoNagysaga": 0,
+  "zaszlo": "https://upload.wikimedia.org/wikipedia/commons/8/89/Hobbit_holes_reflected_in_water.jpg",
+  "createdAt": {
+    "$date": "2026-05-17T07:45:55.542Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-17T07:45:55.542Z"
+  },
+  "__v": 0
+}]

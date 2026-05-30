@@ -1,0 +1,15 @@
+.navbar-kontener {
+    background-color: blue;
+     margin: 0;
+     padding: 0;
+
+    
+}
+
+.navbar-kontener a {
+    color: white;
+    padding: 12px 14px;
+    text-align: center;
+    text-decoration: none;
+    
+}

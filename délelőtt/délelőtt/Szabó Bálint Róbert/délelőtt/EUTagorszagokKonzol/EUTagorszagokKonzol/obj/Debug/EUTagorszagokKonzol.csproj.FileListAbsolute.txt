@@ -1,0 +1,7 @@
+C:\Users\szoftverfejleszto\Desktop\Szabó Bálint Róbert\délelőtt\EUTagorszagokKonzol\EUTagorszagokKonzol\bin\Debug\EUTagorszagokKonzol.exe.config
+C:\Users\szoftverfejleszto\Desktop\Szabó Bálint Róbert\délelőtt\EUTagorszagokKonzol\EUTagorszagokKonzol\bin\Debug\EUTagorszagokKonzol.exe
+C:\Users\szoftverfejleszto\Desktop\Szabó Bálint Róbert\délelőtt\EUTagorszagokKonzol\EUTagorszagokKonzol\bin\Debug\EUTagorszagokKonzol.pdb
+C:\Users\szoftverfejleszto\Desktop\Szabó Bálint Róbert\délelőtt\EUTagorszagokKonzol\EUTagorszagokKonzol\obj\Debug\EUTagorszagokKonzol.csproj.AssemblyReference.cache
+C:\Users\szoftverfejleszto\Desktop\Szabó Bálint Róbert\délelőtt\EUTagorszagokKonzol\EUTagorszagokKonzol\obj\Debug\EUTagorszagokKonzol.csproj.CoreCompileInputs.cache
+C:\Users\szoftverfejleszto\Desktop\Szabó Bálint Róbert\délelőtt\EUTagorszagokKonzol\EUTagorszagokKonzol\obj\Debug\EUTagorszagokKonzol.exe
+C:\Users\szoftverfejleszto\Desktop\Szabó Bálint Róbert\délelőtt\EUTagorszagokKonzol\EUTagorszagokKonzol\obj\Debug\EUTagorszagokKonzol.pdb

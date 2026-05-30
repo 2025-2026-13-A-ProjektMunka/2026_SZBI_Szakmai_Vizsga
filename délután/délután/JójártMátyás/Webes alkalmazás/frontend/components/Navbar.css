@@ -1,0 +1,16 @@
+.navbar-kontener {
+    padding: 14px;
+    background: linear-gradient(to right, blue, white);
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    padding: 14px;
+    font-weight: bold;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}

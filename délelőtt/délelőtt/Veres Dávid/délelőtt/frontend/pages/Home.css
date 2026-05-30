@@ -1,0 +1,27 @@
+.home-kontener {
+    background-image: url('../public/images/tagorszagok.webp');
+    background-repeat: no-repeat;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 180vh;
+    height: 80vh;
+}
+
+.home-kontener h1{
+    color: red;
+    text-shadow: 5px 5px 5px black;
+}
+
+@media screen and(max-width: 1200px) {
+    .home-kontener{
+        background-size: contain;
+    }
+}
+
+@media screen and(max-width: 750px) {
+    .home-kontener h1 {
+        text-shadow: 2px 2px 2px;
+    }
+}

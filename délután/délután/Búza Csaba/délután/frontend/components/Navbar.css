@@ -1,0 +1,13 @@
+*{
+ margin: 0px;
+ padding: 0px;   
+}
+div{
+
+display: block;
+gap: 2px;
+
+}
+Link{
+    text-decoration: none;
+}
